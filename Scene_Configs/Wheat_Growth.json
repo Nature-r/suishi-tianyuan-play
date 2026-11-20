@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "seedDays": 1,
+  "stubbleDays": 1,
+  "headingTerm": 5,
+  "grainTerm": 6,
+  "maturityTerm": 8,
+  "droughtMoisture": 20
+}

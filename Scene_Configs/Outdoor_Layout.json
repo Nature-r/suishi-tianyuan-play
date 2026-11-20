@@ -1,0 +1,731 @@
+{
+  "version": 1,
+  "sceneId": "outdoor",
+  "world": {
+    "width": 1128.7300212581686,
+    "height": 1076.923076923077
+  },
+  "referenceImage": "./assets/landscape/reference-layout.png",
+  "nodes": [
+    {
+      "id": "sky",
+      "name": "天空",
+      "category": "环境背景",
+      "resource": "./assets/landscape/sky.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 2048,
+        "height": 930
+      },
+      "x": 564.3650106290843,
+      "y": 511.5384615384615,
+      "width": 1128.7300212581686,
+      "height": 512.5580662939925,
+      "scaleX": 0.5511377056924651,
+      "scaleY": 0.5511377056924651,
+      "rotation": 0,
+      "zIndex": -1000,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "mountains",
+      "name": "远景大山",
+      "category": "环境背景",
+      "resource": "./assets/landscape/mountains.png",
+      "frame": {
+        "x": 0,
+        "y": 206,
+        "width": 2172,
+        "height": 272
+      },
+      "x": 1065.4259164024656,
+      "y": 270.12230480406447,
+      "width": 1718.475668047704,
+      "height": 215.2050560354399,
+      "scaleX": 0.7911950589538231,
+      "scaleY": 0.7911950589538231,
+      "rotation": 0,
+      "zIndex": -900,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "cloud-left",
+      "name": "左侧云",
+      "category": "环境背景",
+      "resource": "./assets/landscape/clouds.png",
+      "frame": {
+        "x": 35,
+        "y": 25,
+        "width": 575,
+        "height": 320
+      },
+      "x": 405.2746097211015,
+      "y": 116.15366592359449,
+      "width": 203.17140382647034,
+      "height": 113.06930299907916,
+      "scaleX": 0.35334157187212234,
+      "scaleY": 0.35334157187212234,
+      "rotation": 0,
+      "zIndex": -850,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "cloud-middle",
+      "name": "中间云",
+      "category": "环境背景",
+      "resource": "./assets/landscape/clouds.png",
+      "frame": {
+        "x": 670,
+        "y": 80,
+        "width": 545,
+        "height": 245
+      },
+      "x": 628.2759356906862,
+      "y": 145.02561998852082,
+      "width": 158.0222029761436,
+      "height": 71.037504090193,
+      "scaleX": 0.289948996286502,
+      "scaleY": 0.289948996286502,
+      "rotation": 0,
+      "zIndex": -850,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "river",
+      "name": "河流",
+      "category": "河流与水车",
+      "resource": "./assets/landscape/river.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1774,
+        "height": 887
+      },
+      "x": 600.8565940296351,
+      "y": 136.48811717290914,
+      "width": 1240.165445361572,
+      "height": 620.082722680786,
+      "scaleX": 0.6990786050516189,
+      "scaleY": 0.6990786050516189,
+      "rotation": 0,
+      "zIndex": -700,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0,
+          0.102
+        ],
+        [
+          1,
+          0.535
+        ],
+        [
+          1,
+          0.945
+        ],
+        [
+          0,
+          0.48
+        ]
+      ]
+    },
+    {
+      "id": "far-bank",
+      "name": "后岸树林",
+      "category": "环境背景",
+      "resource": "./assets/landscape/far-bank.png",
+      "frame": {
+        "x": 0,
+        "y": 228,
+        "width": 1224,
+        "height": 528
+      },
+      "x": 579.2696098952349,
+      "y": 493.94819715948694,
+      "width": 1246.8498262379323,
+      "height": 537.8567877889119,
+      "scaleX": 1.0186681586911213,
+      "scaleY": 1.018668158691121,
+      "rotation": 0,
+      "zIndex": -600,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "ground-edge-extension",
+      "name": "草地底边延展",
+      "category": "地面与道路",
+      "resource": "./assets/landscape/ground.png",
+      "frame": {
+        "x": 410,
+        "y": 1080,
+        "width": 650,
+        "height": 100
+      },
+      "x": 564.3650106290843,
+      "y": 1120,
+      "width": 1151.304621683332,
+      "height": 177.12378795128186,
+      "scaleX": 1.7712378795128185,
+      "scaleY": 1.7712378795128185,
+      "rotation": 0,
+      "zIndex": -510,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "ground",
+      "name": "草地与院落",
+      "category": "地面与道路",
+      "resource": "./assets/landscape/ground.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1224,
+        "height": 1218
+      },
+      "x": 567.5007316305312,
+      "y": 1185.6359120832199,
+      "width": 1163.8772246752615,
+      "height": 1158.1719441621474,
+      "scaleX": 0.9508800855190045,
+      "scaleY": 0.9508800855190044,
+      "rotation": 0,
+      "zIndex": -500,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden-ground",
+      "name": "菜园未翻耕地",
+      "category": "农田与农作物",
+      "resource": "./assets/landscape/unploughed.png",
+      "frame": {
+        "x": 45,
+        "y": 95,
+        "width": 1450,
+        "height": 875
+      },
+      "x": 449.20117948429777,
+      "y": 937.5383381642611,
+      "width": 397.99545644502746,
+      "height": 240.16967199268896,
+      "scaleX": 0.2744796251345017,
+      "scaleY": 0.2744796251345017,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "upper-field",
+      "name": "上方未翻耕地",
+      "category": "农田与农作物",
+      "resource": "./assets/landscape/unploughed.png",
+      "frame": {
+        "x": 45,
+        "y": 95,
+        "width": 1450,
+        "height": 875
+      },
+      "x": 920.6605532387952,
+      "y": 938.1033020765739,
+      "width": 451.49200850326747,
+      "height": 272.4520740967993,
+      "scaleX": 0.3113737989677707,
+      "scaleY": 0.3113737989677707,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "lower-field",
+      "name": "下方未翻耕地",
+      "category": "农田与农作物",
+      "resource": "./assets/landscape/unploughed.png",
+      "frame": {
+        "x": 45,
+        "y": 95,
+        "width": 1450,
+        "height": 875
+      },
+      "x": 686.8340862345166,
+      "y": 1087.4359690737597,
+      "width": 436.25561447917386,
+      "height": 263.2576983926049,
+      "scaleX": 0.3008659410201199,
+      "scaleY": 0.3008659410201199,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden-fence",
+      "name": "整圈围栏",
+      "category": "农田与农作物",
+      "resource": "./assets/landscape/garden-fence.png",
+      "frame": {
+        "x": 140,
+        "y": 5,
+        "width": 1340,
+        "height": 980
+      },
+      "x": 448.24807192066754,
+      "y": 973.3847165860993,
+      "width": 457.1356586095583,
+      "height": 334.32309360997544,
+      "scaleX": 0.3411460138877301,
+      "scaleY": 0.34114601388773,
+      "rotation": 0,
+      "zIndex": -300,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "water-platform",
+      "name": "打水石台",
+      "category": "交互物品",
+      "resource": "./assets/landscape/platform.png",
+      "frame": {
+        "x": 70,
+        "y": 326,
+        "width": 1132,
+        "height": 596
+      },
+      "x": 690.0954249802418,
+      "y": 591.5187424738031,
+      "width": 180.59680340130697,
+      "height": 95.08453606641251,
+      "scaleX": 0.15953781219196728,
+      "scaleY": 0.1595378121919673,
+      "rotation": 0,
+      "zIndex": -250,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "fishing-platform",
+      "name": "钓鱼石台",
+      "category": "交互物品",
+      "resource": "./assets/landscape/platform.png",
+      "frame": {
+        "x": 70,
+        "y": 326,
+        "width": 1132,
+        "height": 596
+      },
+      "x": 869.0849755280532,
+      "y": 662.4138809787668,
+      "width": 169.30950318872527,
+      "height": 89.14175256226171,
+      "scaleX": 0.14956669892996932,
+      "scaleY": 0.14956669892996932,
+      "rotation": 0,
+      "zIndex": -250,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "watermill",
+      "name": "水车",
+      "category": "河流与水车",
+      "resource": "./assets/landscape/watermill.png",
+      "frame": {
+        "x": 19,
+        "y": 0,
+        "width": 1363,
+        "height": 1122
+      },
+      "x": 884.1733206565594,
+      "y": 451.73290758214944,
+      "width": 248.32060467679707,
+      "height": 204.41358653511836,
+      "scaleX": 0.18218679726837644,
+      "scaleY": 0.18218679726837644,
+      "rotation": 0,
+      "zIndex": 440.96367681291866,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "house",
+      "name": "房屋",
+      "category": "房屋与仓库",
+      "resource": "./assets/landscape/house.png",
+      "frame": {
+        "x": 140,
+        "y": 12,
+        "width": 1140,
+        "height": 1084
+      },
+      "x": 221.7056792511515,
+      "y": 670.6832237249228,
+      "width": 299.1134556334147,
+      "height": 284.4201630759838,
+      "scaleX": 0.2623802242398374,
+      "scaleY": 0.2623802242398374,
+      "rotation": 0,
+      "zIndex": 646.990916032615,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "shed",
+      "name": "仓库",
+      "category": "房屋与仓库",
+      "resource": "./assets/landscape/shed.png",
+      "frame": {
+        "x": 58,
+        "y": 76,
+        "width": 1138,
+        "height": 1105
+      },
+      "x": 73.06477565181639,
+      "y": 740.2189595069193,
+      "width": 214.45870403905204,
+      "height": 208.23977852649605,
+      "scaleX": 0.18845228825927243,
+      "scaleY": 0.18845228825927246,
+      "rotation": 0,
+      "zIndex": 718.6804979684576,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "yard-tree",
+      "name": "庭院大树",
+      "category": "树木与植物",
+      "resource": "./assets/landscape/tree.png",
+      "frame": {
+        "x": 125,
+        "y": 15,
+        "width": 1053,
+        "height": 1195
+      },
+      "x": 454.6287037587416,
+      "y": 600.8686563541153,
+      "width": 253.96425478308794,
+      "height": 288.21204602639136,
+      "scaleX": 0.24118162847396765,
+      "scaleY": 0.24118162847396768,
+      "rotation": 0,
+      "zIndex": 592.2532717387305,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "left-tree",
+      "name": "左侧小树",
+      "category": "树木与植物",
+      "resource": "./assets/landscape/tree.png",
+      "frame": {
+        "x": 125,
+        "y": 15,
+        "width": 1053,
+        "height": 1195
+      },
+      "x": 58.13232752833038,
+      "y": 473.4622878795803,
+      "width": 193.81523408996117,
+      "height": 219.95176138414394,
+      "scaleX": 0.1840600513674845,
+      "scaleY": 0.18406005136748446,
+      "rotation": 0,
+      "zIndex": 536.8461538461538,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "water-bucket",
+      "name": "打水木桶",
+      "category": "交互物品",
+      "resource": "./assets/landscape/water-bucket.png",
+      "frame": {
+        "x": 269,
+        "y": 9,
+        "width": 759,
+        "height": 1175
+      },
+      "x": 689.4044651866544,
+      "y": 540.4754656820376,
+      "width": 36.119360680261394,
+      "height": 55.91600632319781,
+      "scaleX": 0.04758809048782792,
+      "scaleY": 0.04758809048782792,
+      "rotation": 0,
+      "zIndex": 534.0139272204992,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "fishing-stool",
+      "name": "钓鱼板凳",
+      "category": "交互物品",
+      "resource": "./assets/landscape/stool.png",
+      "frame": {
+        "x": 185,
+        "y": 257,
+        "width": 875,
+        "height": 749
+      },
+      "x": 844.2048880354007,
+      "y": 616.5117815896868,
+      "width": 50.792850956617585,
+      "height": 43.47868041886465,
+      "scaleX": 0.058048972521848666,
+      "scaleY": 0.058048972521848666,
+      "rotation": 0,
+      "zIndex": 612.2040892819946,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "fishing-bucket",
+      "name": "钓鱼水桶",
+      "category": "交互物品",
+      "resource": "./assets/landscape/fishing-bucket.png",
+      "frame": {
+        "x": 287,
+        "y": 137,
+        "width": 653,
+        "height": 917
+      },
+      "x": 907.6188685123693,
+      "y": 617.832047766891,
+      "width": 28.218250531454217,
+      "height": 39.626547836666944,
+      "scaleX": 0.04321324736823004,
+      "scaleY": 0.04321324736823004,
+      "rotation": 0,
+      "zIndex": 614.6012785361219,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "fishing-rod",
+      "name": "钓鱼竿",
+      "category": "交互物品",
+      "resource": "./assets/landscape/rod.png",
+      "frame": {
+        "x": 234,
+        "y": 188,
+        "width": 868,
+        "height": 903
+      },
+      "x": 925.2813414660978,
+      "y": 594.626489529578,
+      "width": 112.87300212581687,
+      "height": 117.42433285669658,
+      "scaleX": 0.1300380208822775,
+      "scaleY": 0.1300380208822775,
+      "rotation": 0,
+      "zIndex": 590.3187972218856,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "reed-clump",
+      "name": "岸边芦苇",
+      "category": "树木与植物",
+      "resource": "./assets/landscape/plants.png",
+      "frame": {
+        "x": 100,
+        "y": 355,
+        "width": 475,
+        "height": 335
+      },
+      "x": 778.8237146681363,
+      "y": 551.3846153846154,
+      "width": 50.792850956617585,
+      "height": 35.82232646414083,
+      "scaleX": 0.10693231780340544,
+      "scaleY": 0.10693231780340547,
+      "rotation": 0,
+      "zIndex": 536.0384615384614,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "yard-flowers",
+      "name": "庭院花草",
+      "category": "树木与植物",
+      "resource": "./assets/landscape/plants.png",
+      "frame": {
+        "x": 700,
+        "y": 390,
+        "width": 680,
+        "height": 300
+      },
+      "x": 31.187521561179608,
+      "y": 517.491573320977,
+      "width": 273.1660967654844,
+      "height": 120.51445445536076,
+      "scaleX": 0.40171484818453584,
+      "scaleY": 0.4017148481845359,
+      "rotation": 0,
+      "zIndex": 501.33772716713094,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    }
+  ],
+  "revision": "bd26f8a9-9f58-4600-8543-49877dfbadbb",
+  "savedAt": "2026-11-14T08:02:35.471Z"
+}

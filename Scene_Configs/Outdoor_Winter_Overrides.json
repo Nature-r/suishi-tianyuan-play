@@ -1,0 +1,241 @@
+{
+  "format": "season-overrides",
+  "version": 1,
+  "sceneId": "outdoor-winter",
+  "world": {
+    "width": 1128.7300212581686,
+    "height": 1076.923076923077
+  },
+  "changes": {
+    "sky": {
+      "dx": 7.771209774564113,
+      "dy": -11.778052083182956,
+      "widthRatio": 1.0255629355795088,
+      "heightRatio": 1.0255629355795088
+    },
+    "river": {
+      "dx": -0.33319796844489247,
+      "dy": -1.7062532160482533
+    },
+    "far-bank": {
+      "dx": 18.911710914006562,
+      "dy": -4.439533761509608
+    },
+    "ground-edge-extension": {
+      "dx": -467.27929817300515,
+      "dy": -35.70210995776097,
+      "widthRatio": 2.339250412291697,
+      "heightRatio": 2.3392504122916975
+    },
+    "ground": {
+      "dx": -17.23604157445152,
+      "dy": 20.91401910603622,
+      "widthRatio": 0.9774406100474609,
+      "heightRatio": 0.9774406100474609
+    },
+    "garden-ground": {
+      "dx": 742.0610697606359,
+      "dy": -15.21108225296291,
+      "widthRatio": 0.8357315245275403,
+      "heightRatio": 0.8357315245275403
+    },
+    "upper-field": {
+      "dx": -1060.6691444829478,
+      "dy": 135.0441715705175
+    },
+    "lower-field": {
+      "dx": 513.2837550899218,
+      "dy": 34.93926137470089,
+      "widthRatio": 1.2223858753271808,
+      "heightRatio": 1.2223858753271808
+    },
+    "water-platform": {
+      "dx": 4.480822580357199,
+      "dy": 0.6834989283721598
+    },
+    "fishing-platform": {
+      "dx": 4.490917998963596,
+      "dy": 2.166418684024393
+    },
+    "watermill": {
+      "dx": 3.0310169389038037,
+      "dy": 13.07296538761915,
+      "widthRatio": 0.9246497224700584,
+      "heightRatio": 0.9246497224700584,
+      "depthDelta": 13.07296538761915
+    },
+    "shed": {
+      "dx": 3.0792303581738594,
+      "dy": 1.7062141633093688,
+      "depthDelta": 1.7062141633093688
+    },
+    "left-tree": {
+      "dx": -2.409280733463902,
+      "dy": 3.023573042568728
+    },
+    "reed-clump": {
+      "properties": {
+        "visible": false
+      }
+    },
+    "yard-flowers": {
+      "properties": {
+        "visible": false
+      }
+    },
+    "winter-rock-01": {
+      "dx": -381.6888711962573,
+      "dy": -86.1730830766769,
+      "widthRatio": 0.7587996347555344,
+      "heightRatio": 0.7587996347555344,
+      "depthDelta": -86.1730830766769,
+      "properties": {
+        "visible": true
+      }
+    },
+    "winter-rock-02": {
+      "dx": 44.661270898865155,
+      "dy": -52.14853644646911,
+      "widthRatio": 0.7917890663722046,
+      "heightRatio": 0.7917890663722046,
+      "depthDelta": -52.14853644646911,
+      "properties": {
+        "visible": true
+      }
+    },
+    "winter-snowman": {
+      "dx": 297.2279884767595,
+      "dy": -109.28832372951592,
+      "widthRatio": 1.1567813029400578,
+      "heightRatio": 1.1567813029400578,
+      "depthDelta": -109.28832372951592,
+      "properties": {
+        "visible": true
+      }
+    },
+    "winter-occluder-ground": {
+      "dx": 39.61490800905017,
+      "widthRatio": 1.5236464038431585,
+      "heightRatio": 1.5236464038431585
+    }
+  },
+  "deleted": [],
+  "added": [
+    {
+      "id": "lower-field-copy-7fa82d1f-00e1-4a1f-9574-fa7f75aa9a41",
+      "name": "下方未翻耕地（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/landscape/winter/snow-patch-01.png",
+      "frame": {
+        "x": 14,
+        "y": 14,
+        "width": 733,
+        "height": 368
+      },
+      "x": -169.70479707072235,
+      "y": 1076.487107696413,
+      "width": 494.8457629260773,
+      "height": 248.43552627120934,
+      "scaleX": 0.6750965387804602,
+      "scaleY": 0.6750965387804602,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "lower-field"
+    },
+    {
+      "id": "lower-field-copy-7fa82d1f-00e1-4a1f-9574-fa7f75aa9a41-copy-ea0b1f85-ca95-47c6-941d-d4c92826e0c7",
+      "name": "下方未翻耕地（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/landscape/winter/snow-patch-01.png",
+      "frame": {
+        "x": 14,
+        "y": 14,
+        "width": 733,
+        "height": 368
+      },
+      "x": -37.09635423963267,
+      "y": 552.9599807248351,
+      "width": 297.6502594691666,
+      "height": 149.43423667756247,
+      "scaleX": 0.4060712953194633,
+      "scaleY": 0.40607129531946323,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "lower-field"
+    },
+    {
+      "id": "lower-field-copy-92406faa-f8a3-4e1d-9511-df1a23fb682a",
+      "name": "下方未翻耕地（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/landscape/winter/snow-patch-01.png",
+      "frame": {
+        "x": 14,
+        "y": 14,
+        "width": 733,
+        "height": 368
+      },
+      "x": 1130.1962422301772,
+      "y": 760.608253290036,
+      "width": 223.97286562067907,
+      "height": 112.44476746031364,
+      "scaleX": 0.3055564333160697,
+      "scaleY": 0.3055564333160697,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "lower-field"
+    },
+    {
+      "id": "winter-rock-01-copy-84a83d2e-deb7-40ba-8bf9-ec003c3e7831",
+      "name": "冬季石头1（待摆放）（副本）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/winter/rock-01.png",
+      "frame": {
+        "x": 14,
+        "y": 14,
+        "width": 619,
+        "height": 354
+      },
+      "x": 1058.6464093022703,
+      "y": 731.8439309050026,
+      "width": 77.53840910519465,
+      "height": 44.34345205692877,
+      "scaleX": 0.12526398886138068,
+      "scaleY": 0.1252639888613807,
+      "rotation": 0,
+      "zIndex": 731.8439309050026,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "winter-rock-01"
+    }
+  ]
+}

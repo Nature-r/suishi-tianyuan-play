@@ -1,0 +1,1159 @@
+{
+  "version": 1,
+  "sceneId": "garden-visuals",
+  "world": {
+    "width": 1128.7300212581686,
+    "height": 1076.923076923077
+  },
+  "nodes": [
+    {
+      "id": "garden:anchor",
+      "name": "菜园 · 地块位置（联动全部状态）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/empty-summer.png",
+      "frame": {
+        "x": 70,
+        "y": 122,
+        "width": 1400,
+        "height": 818
+      },
+      "x": 449.20117948429777,
+      "y": 937.5383381642611,
+      "width": 397.99545644502746,
+      "height": 232.54305955145173,
+      "scaleX": 0.2842824688893053,
+      "scaleY": 0.2842824688893053,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden:empty-summer",
+      "name": "菜园 · 春夏未翻耕",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/empty-summer.png",
+      "frame": {
+        "x": 70,
+        "y": 122,
+        "width": 1400,
+        "height": 818
+      },
+      "x": 449.20117948429777,
+      "y": 937.5383381642611,
+      "width": 397.99545644502746,
+      "height": 232.54305955145173,
+      "scaleX": 0.2842824688893053,
+      "scaleY": 0.2842824688893053,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden:empty-autumn",
+      "name": "菜园 · 秋季未翻耕",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/empty-autumn.png",
+      "frame": {
+        "x": 16,
+        "y": 88,
+        "width": 1507,
+        "height": 875
+      },
+      "x": 449.20117948429777,
+      "y": 937.5383381642611,
+      "width": 397.99545644502746,
+      "height": 231.0856167149297,
+      "scaleX": 0.26409784767420535,
+      "scaleY": 0.26409784767420535,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden:empty-winter",
+      "name": "菜园 · 冬季未翻耕",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/empty-winter.png",
+      "frame": {
+        "x": 24,
+        "y": 84,
+        "width": 1488,
+        "height": 840
+      },
+      "x": 449.20117948429777,
+      "y": 937.5383381642611,
+      "width": 397.99545644502746,
+      "height": 224.67485444477356,
+      "scaleX": 0.26747006481520663,
+      "scaleY": 0.26747006481520663,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden:tilled",
+      "name": "菜园 · 翻耕土壤",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/tilled.png",
+      "frame": {
+        "x": 67,
+        "y": 129,
+        "width": 1400,
+        "height": 809
+      },
+      "x": 448.18957501683246,
+      "y": 937.5383615000043,
+      "width": 397.99545644502746,
+      "height": 229.984517331448,
+      "scaleX": 0.2842824688893053,
+      "scaleY": 0.2842824688893053,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden:sown",
+      "name": "菜园 · 西红柿种子",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1364,
+        "height": 880
+      },
+      "x": 360.60677545777787,
+      "y": 852.5802457045511,
+      "width": 110.43791419311117,
+      "height": 71.25026722136204,
+      "scaleX": 0.08096621275154778,
+      "scaleY": 0.08096621275154776,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden:seedling",
+      "name": "菜园 · 西红柿幼苗",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/seedling.png",
+      "frame": {
+        "x": 26,
+        "y": 26,
+        "width": 1268,
+        "height": 729
+      },
+      "x": 331.48653245497013,
+      "y": 838.24787914029,
+      "width": 143.9997036564793,
+      "height": 82.78847315896957,
+      "scaleX": 0.11356443506031491,
+      "scaleY": 0.11356443506031491,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden:flowering",
+      "name": "菜园 · 西红柿开花",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/flowering.png",
+      "frame": {
+        "x": 114,
+        "y": 101,
+        "width": 1304,
+        "height": 832
+      },
+      "x": 434.47615454056637,
+      "y": 793.8580551723936,
+      "width": 143.81114463388246,
+      "height": 91.75680393818267,
+      "scaleX": 0.11028462011800802,
+      "scaleY": 0.11028462011800802,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden:green-fruit",
+      "name": "菜园 · 西红柿青果",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/green-fruit.png",
+      "frame": {
+        "x": 114,
+        "y": 90,
+        "width": 1293,
+        "height": 844
+      },
+      "x": 439.37566261601637,
+      "y": 792.3287239064235,
+      "width": 143.44641785104088,
+      "height": 93.63401134282947,
+      "scaleX": 0.11094077173321026,
+      "scaleY": 0.11094077173321026,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden:mature",
+      "name": "菜园 · 西红柿成熟",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/mature.png",
+      "frame": {
+        "x": 205,
+        "y": 163,
+        "width": 1106,
+        "height": 688
+      },
+      "x": 430.2488333012501,
+      "y": 793.348285862318,
+      "width": 161.99500286391967,
+      "height": 100.7708516911182,
+      "scaleX": 0.14646926117895087,
+      "scaleY": 0.14646926117895087,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "garden:sown-copy-ce18dc9f-f1f1-4cde-ba98-464d0328cb53",
+      "name": "菜园 · 西红柿种子（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1364,
+        "height": 880
+      },
+      "x": 537.8786764796887,
+      "y": 822.034089439701,
+      "width": 87.66574807901621,
+      "height": 56.55854714775239,
+      "scaleX": 0.06427107630426408,
+      "scaleY": 0.06427107630426408,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:sown"
+    },
+    {
+      "id": "garden:sown-copy-bcc6d48b-f982-4398-a52e-30b4546daf84",
+      "name": "菜园 · 西红柿种子（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1364,
+        "height": 880
+      },
+      "x": 450.89372751717195,
+      "y": 804.1919302296212,
+      "width": 110.43791419311117,
+      "height": 71.25026722136204,
+      "scaleX": 0.08096621275154778,
+      "scaleY": 0.08096621275154776,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:sown"
+    },
+    {
+      "id": "garden:sown-copy-bcc6d48b-f982-4398-a52e-30b4546daf84-copy-d31d9dfc-ea07-4c62-b489-c4db89f9aae7",
+      "name": "菜园 · 西红柿种子（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1364,
+        "height": 880
+      },
+      "x": 447.8675298798691,
+      "y": 898.0313758184296,
+      "width": 110.43791419311117,
+      "height": 71.25026722136204,
+      "scaleX": 0.08096621275154778,
+      "scaleY": 0.08096621275154776,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:sown"
+    },
+    {
+      "id": "garden:seedling-copy-a8f1498f-a396-4a66-8614-216837576912",
+      "name": "菜园 · 西红柿幼苗（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/seedling.png",
+      "frame": {
+        "x": 26,
+        "y": 26,
+        "width": 1268,
+        "height": 729
+      },
+      "x": 444.70239113030027,
+      "y": 786.261558671693,
+      "width": 129.844051752045,
+      "height": 74.65008969025303,
+      "scaleX": 0.10240067172874212,
+      "scaleY": 0.10240067172874215,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:seedling"
+    },
+    {
+      "id": "garden:seedling-copy-a8f1498f-a396-4a66-8614-216837576912-copy-a935ba48-dace-43a9-a758-6be369eb358d",
+      "name": "菜园 · 西红柿幼苗（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/seedling.png",
+      "frame": {
+        "x": 26,
+        "y": 26,
+        "width": 1268,
+        "height": 729
+      },
+      "x": 380.65378418228903,
+      "y": 863.307793472022,
+      "width": 148.42107595348205,
+      "height": 85.33041354107918,
+      "scaleX": 0.11705132172987542,
+      "scaleY": 0.11705132172987542,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:seedling"
+    },
+    {
+      "id": "garden:seedling-copy-0c8d5d68-ef89-4b0c-8151-d0c4344e2037",
+      "name": "菜园 · 西红柿幼苗（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/seedling.png",
+      "frame": {
+        "x": 26,
+        "y": 26,
+        "width": 1268,
+        "height": 729
+      },
+      "x": 441.94852531677526,
+      "y": 896.6018250060737,
+      "width": 157.99464563402182,
+      "height": 90.83446109400779,
+      "scaleX": 0.12460145554733582,
+      "scaleY": 0.12460145554733579,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:seedling"
+    },
+    {
+      "id": "garden:seedling-copy-0c8d5d68-ef89-4b0c-8151-d0c4344e2037-copy-9ee697d3-e9e4-4753-a9b1-430874c3912d",
+      "name": "菜园 · 西红柿幼苗（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/seedling.png",
+      "frame": {
+        "x": 26,
+        "y": 26,
+        "width": 1268,
+        "height": 729
+      },
+      "x": 442.16521855871605,
+      "y": 901.5411917999916,
+      "width": 143.9997036564793,
+      "height": 82.78847315896957,
+      "scaleX": 0.11356443506031491,
+      "scaleY": 0.11356443506031491,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": false,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:seedling"
+    },
+    {
+      "id": "garden:seedling-copy-a8f1498f-a396-4a66-8614-216837576912-copy-a6e3ba6c-bfc2-453d-9ae9-5adcffaa57d9",
+      "name": "菜园 · 西红柿幼苗（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/seedling.png",
+      "frame": {
+        "x": 26,
+        "y": 26,
+        "width": 1268,
+        "height": 729
+      },
+      "x": 488.45110516997033,
+      "y": 813.2622473596897,
+      "width": 137.18112381119937,
+      "height": 78.86832749082362,
+      "scaleX": 0.10818700616025187,
+      "scaleY": 0.10818700616025187,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:seedling"
+    },
+    {
+      "id": "garden:seedling-copy-a8f1498f-a396-4a66-8614-216837576912-copy-a-copy-dbd40153-8592-453b-b433-4cfed6cd4f7b",
+      "name": "菜园 · 西红柿幼苗（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/seedling.png",
+      "frame": {
+        "x": 26,
+        "y": 26,
+        "width": 1268,
+        "height": 729
+      },
+      "x": 519.1620540556227,
+      "y": 816.4488092630621,
+      "width": 138.84546317410883,
+      "height": 79.82519136744901,
+      "scaleX": 0.10949957663573251,
+      "scaleY": 0.10949957663573252,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": false,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:seedling"
+    },
+    {
+      "id": "garden:seedling-copy-a8f1498f-a396-4a66-8614-216837576912-copy-a-copy-d246a1c4-bfe5-4e7c-8d73-76e8827378b7",
+      "name": "菜园 · 西红柿幼苗（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/seedling.png",
+      "frame": {
+        "x": 26,
+        "y": 26,
+        "width": 1268,
+        "height": 729
+      },
+      "x": 544.7603802771752,
+      "y": 828.5760237616258,
+      "width": 125.42097502940061,
+      "height": 72.10716939781786,
+      "scaleX": 0.09891244087492161,
+      "scaleY": 0.09891244087492161,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:seedling"
+    },
+    {
+      "id": "garden:flowering-copy-8018d751-6062-4e87-bff5-2a186dbd7d90",
+      "name": "菜园 · 西红柿开花（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/flowering.png",
+      "frame": {
+        "x": 114,
+        "y": 101,
+        "width": 1304,
+        "height": 832
+      },
+      "x": 495.7217275233858,
+      "y": 814.7993926404532,
+      "width": 143.81114463388246,
+      "height": 91.75680393818267,
+      "scaleX": 0.11028462011800802,
+      "scaleY": 0.11028462011800802,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:flowering"
+    },
+    {
+      "id": "garden:flowering-copy-8018d751-6062-4e87-bff5-2a186dbd7d90-copy-b075c0cb-8890-4388-bdd2-fbe6edd63e15",
+      "name": "菜园 · 西红柿开花（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/flowering.png",
+      "frame": {
+        "x": 114,
+        "y": 101,
+        "width": 1304,
+        "height": 832
+      },
+      "x": 542.1519038671192,
+      "y": 833.1919302296211,
+      "width": 143.81114463388246,
+      "height": 91.75680393818267,
+      "scaleX": 0.11028462011800802,
+      "scaleY": 0.11028462011800802,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:flowering"
+    },
+    {
+      "id": "garden:flowering-copy-8018d751-6062-4e87-bff5-2a186dbd7d90-copy--copy-d32819fd-d653-410f-863d-7e725f85a37a",
+      "name": "菜园 · 西红柿开花（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/flowering.png",
+      "frame": {
+        "x": 114,
+        "y": 101,
+        "width": 1304,
+        "height": 832
+      },
+      "x": 544.7494336536549,
+      "y": 842.9182028615573,
+      "width": 143.81114463388246,
+      "height": 91.75680393818267,
+      "scaleX": 0.11028462011800802,
+      "scaleY": 0.11028462011800802,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": false,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:flowering"
+    },
+    {
+      "id": "garden:flowering-copy-8018d751-6062-4e87-bff5-2a186dbd7d90-copy--copy-0eeacd2e-382d-4275-8b98-bcaf369023da",
+      "name": "菜园 · 西红柿开花（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/flowering.png",
+      "frame": {
+        "x": 114,
+        "y": 101,
+        "width": 1304,
+        "height": 832
+      },
+      "x": 341.89856697276656,
+      "y": 849.0759036370183,
+      "width": 143.81114463388246,
+      "height": 91.75680393818267,
+      "scaleX": 0.11028462011800802,
+      "scaleY": 0.11028462011800802,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:flowering"
+    },
+    {
+      "id": "garden:flowering-copy-8018d751-6062-4e87-bff5-2a186dbd7d90-copy--copy-811ebf06-5087-427a-b530-53d71741c40a",
+      "name": "菜园 · 西红柿开花（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/flowering.png",
+      "frame": {
+        "x": 114,
+        "y": 101,
+        "width": 1304,
+        "height": 832
+      },
+      "x": 398.0224810465691,
+      "y": 868.9976791491836,
+      "width": 143.81114463388246,
+      "height": 91.75680393818267,
+      "scaleX": 0.11028462011800802,
+      "scaleY": 0.11028462011800802,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:flowering"
+    },
+    {
+      "id": "garden:flowering-copy-8018d751-6062-4e87-bff5-2a186dbd7d90-copy--copy-eed80197-6896-4454-9d87-7af862c8bd80",
+      "name": "菜园 · 西红柿开花（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/flowering.png",
+      "frame": {
+        "x": 114,
+        "y": 101,
+        "width": 1304,
+        "height": 832
+      },
+      "x": 442.93928777267723,
+      "y": 892.9977024849267,
+      "width": 143.81114463388246,
+      "height": 91.75680393818267,
+      "scaleX": 0.11028462011800802,
+      "scaleY": 0.11028462011800802,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:flowering"
+    },
+    {
+      "id": "garden:flowering-copy-8018d751-6062-4e87-bff5-2a186dbd7d90-copy--copy-109f0a60-5d8a-470d-b607-8c7636b3c2e0",
+      "name": "菜园 · 西红柿开花（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/flowering.png",
+      "frame": {
+        "x": 114,
+        "y": 101,
+        "width": 1304,
+        "height": 832
+      },
+      "x": 438.8935981867096,
+      "y": 901.7043664894819,
+      "width": 143.81114463388246,
+      "height": 91.75680393818267,
+      "scaleX": 0.11028462011800802,
+      "scaleY": 0.11028462011800802,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": false,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:flowering"
+    },
+    {
+      "id": "garden:green-fruit-copy-a4eb0117-72fb-4837-9abc-d333568fdd83",
+      "name": "菜园 · 西红柿青果（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/green-fruit.png",
+      "frame": {
+        "x": 114,
+        "y": 90,
+        "width": 1293,
+        "height": 844
+      },
+      "x": 486.3315465824271,
+      "y": 817.348285862318,
+      "width": 143.44641785104088,
+      "height": 93.63401134282947,
+      "scaleX": 0.11094077173321026,
+      "scaleY": 0.11094077173321026,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:green-fruit"
+    },
+    {
+      "id": "garden:green-fruit-copy-a4eb0117-72fb-4837-9abc-d333568fdd83-copy-8b8e1c19-f3d9-4dc5-9b33-ab81bdd8354a",
+      "name": "菜园 · 西红柿青果（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/green-fruit.png",
+      "frame": {
+        "x": 114,
+        "y": 90,
+        "width": 1293,
+        "height": 844
+      },
+      "x": 539.9066141058513,
+      "y": 843.3873864383637,
+      "width": 143.44641785104088,
+      "height": 93.63401134282947,
+      "scaleX": 0.11094077173321026,
+      "scaleY": 0.11094077173321026,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:green-fruit"
+    },
+    {
+      "id": "garden:green-fruit-copy-a4eb0117-72fb-4837-9abc-d333568fdd83-cop-copy-f0a9419b-b08b-4fca-bf4c-a5901438e4c5",
+      "name": "菜园 · 西红柿青果（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/green-fruit.png",
+      "frame": {
+        "x": 114,
+        "y": 90,
+        "width": 1293,
+        "height": 844
+      },
+      "x": 548.1197504775942,
+      "y": 837.820323074855,
+      "width": 143.44641785104088,
+      "height": 93.63401134282947,
+      "scaleX": 0.11094077173321026,
+      "scaleY": 0.11094077173321026,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": false,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:green-fruit"
+    },
+    {
+      "id": "garden:green-fruit-copy-a4eb0117-72fb-4837-9abc-d333568fdd83-cop-copy-e9b87910-9854-4da8-92e8-69332ed1a24e",
+      "name": "菜园 · 西红柿青果（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/green-fruit.png",
+      "frame": {
+        "x": 114,
+        "y": 90,
+        "width": 1293,
+        "height": 844
+      },
+      "x": 339.1595862284837,
+      "y": 842.448832598805,
+      "width": 143.44641785104088,
+      "height": 93.63401134282947,
+      "scaleX": 0.11094077173321026,
+      "scaleY": 0.11094077173321026,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:green-fruit"
+    },
+    {
+      "id": "garden:green-fruit-copy-a4eb0117-72fb-4837-9abc-d333568fdd83-cop-copy-bd85e255-7c4d-4fc2-b26c-c834145314e2",
+      "name": "菜园 · 西红柿青果（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/green-fruit.png",
+      "frame": {
+        "x": 114,
+        "y": 90,
+        "width": 1293,
+        "height": 844
+      },
+      "x": 387.652782285037,
+      "y": 870.5271270938694,
+      "width": 143.44641785104088,
+      "height": 93.63401134282947,
+      "scaleX": 0.11094077173321026,
+      "scaleY": 0.11094077173321026,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:green-fruit"
+    },
+    {
+      "id": "garden:green-fruit-copy-a4eb0117-72fb-4837-9abc-d333568fdd83-cop-copy-dec9693c-50e4-4d39-ab24-882badf25bef",
+      "name": "菜园 · 西红柿青果（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/green-fruit.png",
+      "frame": {
+        "x": 114,
+        "y": 90,
+        "width": 1293,
+        "height": 844
+      },
+      "x": 440.71007633846995,
+      "y": 896.0564350240963,
+      "width": 143.44641785104088,
+      "height": 93.63401134282947,
+      "scaleX": 0.11094077173321026,
+      "scaleY": 0.11094077173321026,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:green-fruit"
+    },
+    {
+      "id": "garden:green-fruit-copy-a4eb0117-72fb-4837-9abc-d333568fdd83-cop-copy-8f13ae94-01c5-4ef7-b5b4-928c59361626",
+      "name": "菜园 · 西红柿青果（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/green-fruit.png",
+      "frame": {
+        "x": 114,
+        "y": 90,
+        "width": 1293,
+        "height": 844
+      },
+      "x": 447.87945158862595,
+      "y": 897.1164426988008,
+      "width": 143.44641785104088,
+      "height": 93.63401134282947,
+      "scaleX": 0.11094077173321026,
+      "scaleY": 0.11094077173321026,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": false,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:green-fruit"
+    },
+    {
+      "id": "garden:mature-copy-70d08d44-b321-4953-aa12-adbba2d407ac",
+      "name": "菜园 · 西红柿成熟（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/mature.png",
+      "frame": {
+        "x": 205,
+        "y": 163,
+        "width": 1106,
+        "height": 688
+      },
+      "x": 471.5812698727407,
+      "y": 817.85810184388,
+      "width": 161.99500286391967,
+      "height": 100.7708516911182,
+      "scaleX": 0.14646926117895087,
+      "scaleY": 0.14646926117895087,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:mature"
+    },
+    {
+      "id": "garden:mature-copy-70d08d44-b321-4953-aa12-adbba2d407ac-copy-6bd334a2-abe4-497b-bc76-10ec53c02375",
+      "name": "菜园 · 西红柿成熟（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/mature.png",
+      "frame": {
+        "x": 205,
+        "y": 163,
+        "width": 1106,
+        "height": 688
+      },
+      "x": 534.3322783204994,
+      "y": 846.9558416161229,
+      "width": 161.99500286391967,
+      "height": 100.7708516911182,
+      "scaleX": 0.14646926117895087,
+      "scaleY": 0.14646926117895087,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:mature"
+    },
+    {
+      "id": "garden:mature-copy-70d08d44-b321-4953-aa12-adbba2d407ac-copy-6bd-copy-3d80b66b-0efc-4d3f-b5cc-3a8a57d39051",
+      "name": "菜园 · 西红柿成熟（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/mature.png",
+      "frame": {
+        "x": 205,
+        "y": 163,
+        "width": 1106,
+        "height": 688
+      },
+      "x": 337.0969948890746,
+      "y": 843.9376481387357,
+      "width": 161.99500286391967,
+      "height": 100.7708516911182,
+      "scaleX": 0.14646926117895087,
+      "scaleY": 0.14646926117895087,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:mature"
+    },
+    {
+      "id": "garden:mature-copy-70d08d44-b321-4953-aa12-adbba2d407ac-copy-6bd-copy-6b6eb16e-c0c7-45ad-820d-a09239768cba",
+      "name": "菜园 · 西红柿成熟（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/mature.png",
+      "frame": {
+        "x": 205,
+        "y": 163,
+        "width": 1106,
+        "height": 688
+      },
+      "x": 375.88849572712974,
+      "y": 873.5451805567974,
+      "width": 161.99500286391967,
+      "height": 100.7708516911182,
+      "scaleX": 0.14646926117895087,
+      "scaleY": 0.14646926117895087,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:mature"
+    },
+    {
+      "id": "garden:mature-copy-70d08d44-b321-4953-aa12-adbba2d407ac-copy-6bd-copy-60b14866-4a13-4afb-b0f1-6c151926f9d0",
+      "name": "菜园 · 西红柿成熟（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/tomato/mature.png",
+      "frame": {
+        "x": 205,
+        "y": 163,
+        "width": 1106,
+        "height": 688
+      },
+      "x": 434.043576224292,
+      "y": 897.5451805567974,
+      "width": 161.99500286391967,
+      "height": 100.7708516911182,
+      "scaleX": 0.14646926117895087,
+      "scaleY": 0.14646926117895087,
+      "rotation": 0,
+      "zIndex": -320,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "garden:mature"
+    }
+  ],
+  "gardenBinding": {
+    "id": "garden-ground",
+    "name": "菜园未翻耕地",
+    "category": "农田与农作物",
+    "resource": "./assets/landscape/unploughed.png",
+    "frame": {
+      "x": 45,
+      "y": 95,
+      "width": 1450,
+      "height": 875
+    },
+    "x": 449.20117948429777,
+    "y": 937.5383381642611,
+    "width": 397.99545644502746,
+    "height": 240.16967199268896,
+    "scaleX": 0.2744796251345017,
+    "scaleY": 0.2744796251345017,
+    "rotation": 0,
+    "zIndex": -400,
+    "opacity": 1,
+    "visible": true,
+    "locked": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 1
+    },
+    "depthMode": "fixed"
+  }
+}

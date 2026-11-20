@@ -1,0 +1,1004 @@
+{
+  "version": 1,
+  "sourceWidth": 1774,
+  "sourceHeight": 887,
+  "clips": {
+    "IDLE": {
+      "file": "./assets/animation-lab/待机.png",
+      "sha256": "b4dade06fff5bdd3ae34de9e1c49f9b9ba0ca2fddd73ce2e3d15727070498153",
+      "rowGap": {
+        "cut": 441,
+        "min": 0,
+        "interval": [
+          424,
+          457
+        ]
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 444,
+          "height": 441,
+          "bounds": {
+            "x": 70,
+            "y": 15,
+            "width": 269,
+            "height": 408
+          },
+          "headCenter": 218.5,
+          "shoeBottom": 422,
+          "shoeCenter": 226.1,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 246,
+          "anchorY": 422
+        },
+        {
+          "x": 444,
+          "y": 0,
+          "width": 443,
+          "height": 441,
+          "bounds": {
+            "x": 68,
+            "y": 14,
+            "width": 268,
+            "height": 409
+          },
+          "headCenter": 216.5,
+          "shoeBottom": 422,
+          "shoeCenter": 224.9,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 244,
+          "anchorY": 422
+        },
+        {
+          "x": 887,
+          "y": 0,
+          "width": 444,
+          "height": 441,
+          "bounds": {
+            "x": 73,
+            "y": 12,
+            "width": 267,
+            "height": 411
+          },
+          "headCenter": 221,
+          "shoeBottom": 422,
+          "shoeCenter": 228.2,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 248.5,
+          "anchorY": 422
+        },
+        {
+          "x": 1331,
+          "y": 0,
+          "width": 443,
+          "height": 441,
+          "bounds": {
+            "x": 70,
+            "y": 15,
+            "width": 268,
+            "height": 408
+          },
+          "headCenter": 217.5,
+          "shoeBottom": 422,
+          "shoeCenter": 225.8,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 245,
+          "anchorY": 422
+        },
+        {
+          "x": 0,
+          "y": 441,
+          "width": 444,
+          "height": 446,
+          "bounds": {
+            "x": 70,
+            "y": 18,
+            "width": 269,
+            "height": 411
+          },
+          "headCenter": 219,
+          "shoeBottom": 428,
+          "shoeCenter": 229.5,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 246.5,
+          "anchorY": 428
+        },
+        {
+          "x": 444,
+          "y": 441,
+          "width": 443,
+          "height": 446,
+          "bounds": {
+            "x": 69,
+            "y": 19,
+            "width": 268,
+            "height": 410
+          },
+          "headCenter": 218.5,
+          "shoeBottom": 428,
+          "shoeCenter": 227.2,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 246,
+          "anchorY": 428
+        },
+        {
+          "x": 887,
+          "y": 441,
+          "width": 444,
+          "height": 446,
+          "bounds": {
+            "x": 72,
+            "y": 19,
+            "width": 268,
+            "height": 410
+          },
+          "headCenter": 221,
+          "shoeBottom": 428,
+          "shoeCenter": 231.8,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 248.5,
+          "anchorY": 428
+        },
+        {
+          "x": 1331,
+          "y": 441,
+          "width": 443,
+          "height": 446,
+          "bounds": {
+            "x": 70,
+            "y": 21,
+            "width": 268,
+            "height": 408
+          },
+          "headCenter": 219.5,
+          "shoeBottom": 428,
+          "shoeCenter": 230,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 247,
+          "anchorY": 428
+        }
+      ],
+      "entryFrame": 0,
+      "defaultFps": 4,
+      "note": "每帧鞋底校准地面，横向按头部稳定区域消除排版偏移。",
+      "footCenterReference": {
+        "frame": 0,
+        "x": 246,
+        "method": "入口触地帧鞋底最后35px深色主体边界中心"
+      }
+    },
+    "WALK": {
+      "file": "./assets/animation-lab/右侧行走.png",
+      "sha256": "3820d8ebabd51a53cc262c55af00aba3da50d9f74a9a9dfd01ff6af5f69a24af",
+      "rowGap": {
+        "cut": 442,
+        "min": 0,
+        "interval": [
+          424,
+          459
+        ]
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 440,
+          "height": 442,
+          "bounds": {
+            "x": 31,
+            "y": 14,
+            "width": 313,
+            "height": 394
+          },
+          "headCenter": 223,
+          "shoeBottom": 407,
+          "shoeCenter": 210.3,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 225,
+          "anchorY": 407
+        },
+        {
+          "x": 440,
+          "y": 0,
+          "width": 443,
+          "height": 442,
+          "bounds": {
+            "x": 35,
+            "y": 13,
+            "width": 311,
+            "height": 387
+          },
+          "headCenter": 226.5,
+          "shoeBottom": 399,
+          "shoeCenter": 220.4,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 228.5,
+          "anchorY": 399
+        },
+        {
+          "x": 883,
+          "y": 0,
+          "width": 445,
+          "height": 442,
+          "bounds": {
+            "x": 34,
+            "y": 14,
+            "width": 313,
+            "height": 384
+          },
+          "headCenter": 227.5,
+          "shoeBottom": 397,
+          "shoeCenter": 233.2,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 229.5,
+          "anchorY": 397
+        },
+        {
+          "x": 1328,
+          "y": 0,
+          "width": 446,
+          "height": 442,
+          "bounds": {
+            "x": 35,
+            "y": 14,
+            "width": 312,
+            "height": 390
+          },
+          "headCenter": 227,
+          "shoeBottom": 403,
+          "shoeCenter": 255.8,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 229,
+          "anchorY": 403
+        },
+        {
+          "x": 0,
+          "y": 442,
+          "width": 441,
+          "height": 445,
+          "bounds": {
+            "x": 32,
+            "y": 19,
+            "width": 311,
+            "height": 385
+          },
+          "headCenter": 222,
+          "shoeBottom": 403,
+          "shoeCenter": 193.2,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 224,
+          "anchorY": 403
+        },
+        {
+          "x": 441,
+          "y": 442,
+          "width": 443,
+          "height": 445,
+          "bounds": {
+            "x": 35,
+            "y": 19,
+            "width": 311,
+            "height": 379
+          },
+          "headCenter": 226,
+          "shoeBottom": 397,
+          "shoeCenter": 219.9,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 228,
+          "anchorY": 397
+        },
+        {
+          "x": 884,
+          "y": 442,
+          "width": 444,
+          "height": 445,
+          "bounds": {
+            "x": 35,
+            "y": 19,
+            "width": 311,
+            "height": 391
+          },
+          "headCenter": 226,
+          "shoeBottom": 409,
+          "shoeCenter": 211.9,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 228,
+          "anchorY": 409
+        },
+        {
+          "x": 1328,
+          "y": 442,
+          "width": 446,
+          "height": 445,
+          "bounds": {
+            "x": 36,
+            "y": 20,
+            "width": 312,
+            "height": 389
+          },
+          "headCenter": 227.5,
+          "shoeBottom": 408,
+          "shoeCenter": 236.1,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 229.5,
+          "anchorY": 408
+        }
+      ],
+      "entryFrame": 0,
+      "defaultFps": 8,
+      "note": "每帧鞋底校准地面，横向按头部稳定区域消除排版偏移。",
+      "footCenterReference": {
+        "frame": 0,
+        "x": 225,
+        "method": "入口触地帧鞋底最后35px深色主体边界中心"
+      }
+    },
+    "RUN": {
+      "file": "./assets/animation-lab/右侧奔跑.png",
+      "sha256": "30395e78ba941eb605a6101ed5769192b396e532e717f6ce9f575461aa2a7d17",
+      "rowGap": {
+        "cut": 442,
+        "min": 0,
+        "interval": [
+          424,
+          460
+        ]
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 444,
+          "height": 442,
+          "bounds": {
+            "x": 46,
+            "y": 15,
+            "width": 325,
+            "height": 388
+          },
+          "headCenter": 247,
+          "shoeBottom": 402,
+          "shoeCenter": 184.8,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 219,
+          "anchorY": 402
+        },
+        {
+          "x": 444,
+          "y": 0,
+          "width": 443,
+          "height": 442,
+          "bounds": {
+            "x": 45,
+            "y": 15,
+            "width": 323,
+            "height": 380
+          },
+          "headCenter": 246,
+          "shoeBottom": 394,
+          "shoeCenter": 147.8,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 218,
+          "anchorY": 394
+        },
+        {
+          "x": 887,
+          "y": 0,
+          "width": 444,
+          "height": 442,
+          "bounds": {
+            "x": 48,
+            "y": 15,
+            "width": 334,
+            "height": 338
+          },
+          "headCenter": 249,
+          "shoeBottom": 351,
+          "shoeCenter": 222.3,
+          "edgeCore": 0,
+          "grounded": false,
+          "anchorX": 221,
+          "anchorY": 402
+        },
+        {
+          "x": 1331,
+          "y": 0,
+          "width": 443,
+          "height": 442,
+          "bounds": {
+            "x": 49,
+            "y": 15,
+            "width": 320,
+            "height": 376
+          },
+          "headCenter": 247.5,
+          "shoeBottom": 390,
+          "shoeCenter": 291.2,
+          "edgeCore": 0,
+          "grounded": false,
+          "anchorX": 219.5,
+          "anchorY": 402
+        },
+        {
+          "x": 0,
+          "y": 442,
+          "width": 444,
+          "height": 445,
+          "bounds": {
+            "x": 46,
+            "y": 20,
+            "width": 325,
+            "height": 385
+          },
+          "headCenter": 248,
+          "shoeBottom": 404,
+          "shoeCenter": 247.7,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 220,
+          "anchorY": 404
+        },
+        {
+          "x": 444,
+          "y": 442,
+          "width": 443,
+          "height": 445,
+          "bounds": {
+            "x": 45,
+            "y": 20,
+            "width": 324,
+            "height": 388
+          },
+          "headCenter": 247,
+          "shoeBottom": 407,
+          "shoeCenter": 203.9,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 219,
+          "anchorY": 407
+        },
+        {
+          "x": 887,
+          "y": 442,
+          "width": 444,
+          "height": 445,
+          "bounds": {
+            "x": 46,
+            "y": 20,
+            "width": 324,
+            "height": 389
+          },
+          "headCenter": 247.5,
+          "shoeBottom": 408,
+          "shoeCenter": 198.7,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 219.5,
+          "anchorY": 408
+        },
+        {
+          "x": 1331,
+          "y": 442,
+          "width": 443,
+          "height": 445,
+          "bounds": {
+            "x": 49,
+            "y": 21,
+            "width": 321,
+            "height": 387
+          },
+          "headCenter": 247.5,
+          "shoeBottom": 407,
+          "shoeCenter": 209.1,
+          "edgeCore": 0,
+          "grounded": true,
+          "anchorX": 219.5,
+          "anchorY": 407
+        }
+      ],
+      "entryFrame": 0,
+      "defaultFps": 12,
+      "note": "第 3、4 帧按腾空处理，保留虚拟地面锚点；其余帧按鞋底校准。",
+      "footCenterReference": {
+        "frame": 0,
+        "x": 219,
+        "method": "入口触地帧鞋底最后35px深色主体边界中心"
+      }
+    }
+  },
+  "notes": [
+    "边界由 alpha>32 的投影低谷确定；alpha>128 主体在全部切帧边缘像素数均为 0。",
+    "保留所有原 PNG；只在纹理取样时使用矩形和原点，不缩放/重绘源文件。",
+    "不同姿态轮廓高度存在素材差异，所有状态使用同一源像素比例。"
+  ],
+  "transitions": {
+    "IDLE_WALK": {
+      "key": "IDLE_WALK",
+      "from": "IDLE",
+      "to": "WALK",
+      "file": "./assets/animation-lab/transitions/idle-walk-v2.png",
+      "fps": 24,
+      "frameCount": 8,
+      "entryFrame": 0,
+      "sha256": "75204bcb479d77854b34c63e74410b7fa8290fe28aa4b20f98af1973587c7d14",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 443,
+          "height": 443,
+          "bounds": {
+            "x": 72,
+            "y": 14,
+            "width": 267,
+            "height": 410
+          },
+          "anchorX": 246,
+          "anchorY": 423,
+          "shoeBottom": 423,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9951219512195122
+        },
+        {
+          "x": 443,
+          "y": 0,
+          "width": 444,
+          "height": 443,
+          "bounds": {
+            "x": 69,
+            "y": 15,
+            "width": 274,
+            "height": 409
+          },
+          "anchorX": 247.5,
+          "anchorY": 423,
+          "shoeBottom": 423,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9926650366748166
+        },
+        {
+          "x": 887,
+          "y": 0,
+          "width": 443,
+          "height": 443,
+          "bounds": {
+            "x": 70,
+            "y": 15,
+            "width": 278,
+            "height": 408
+          },
+          "anchorX": 245.5,
+          "anchorY": 422,
+          "shoeBottom": 422,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9901960784313726
+        },
+        {
+          "x": 1330,
+          "y": 0,
+          "width": 444,
+          "height": 443,
+          "bounds": {
+            "x": 66,
+            "y": 17,
+            "width": 290,
+            "height": 406
+          },
+          "anchorX": 247.5,
+          "anchorY": 422,
+          "shoeBottom": 422,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9901477832512315
+        },
+        {
+          "x": 0,
+          "y": 443,
+          "width": 443,
+          "height": 444,
+          "bounds": {
+            "x": 48,
+            "y": 19,
+            "width": 302,
+            "height": 406
+          },
+          "anchorX": 246,
+          "anchorY": 424,
+          "shoeBottom": 424,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9852216748768473
+        },
+        {
+          "x": 443,
+          "y": 443,
+          "width": 444,
+          "height": 444,
+          "bounds": {
+            "x": 50,
+            "y": 19,
+            "width": 300,
+            "height": 406
+          },
+          "anchorX": 247.5,
+          "anchorY": 424,
+          "shoeBottom": 424,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9802955665024631
+        },
+        {
+          "x": 887,
+          "y": 443,
+          "width": 443,
+          "height": 444,
+          "bounds": {
+            "x": 46,
+            "y": 19,
+            "width": 305,
+            "height": 406
+          },
+          "anchorX": 247,
+          "anchorY": 424,
+          "shoeBottom": 424,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9753694581280788
+        },
+        {
+          "x": 1330,
+          "y": 443,
+          "width": 444,
+          "height": 444,
+          "bounds": {
+            "x": 47,
+            "y": 22,
+            "width": 301,
+            "height": 403
+          },
+          "anchorX": 247.5,
+          "anchorY": 424,
+          "shoeBottom": 424,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9776674937965261
+        }
+      ]
+    },
+    "WALK_RUN": {
+      "key": "WALK_RUN",
+      "from": "WALK",
+      "to": "RUN",
+      "file": "./assets/animation-lab/transitions/walk-run.png",
+      "fps": 24,
+      "frameCount": 8,
+      "entryFrame": 0,
+      "sha256": "d941549c8e31b7a95330a323fbbfc920740b6786fd68758875385a23babf9bbb",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 443,
+          "height": 443,
+          "bounds": {
+            "x": 32,
+            "y": 13,
+            "width": 313,
+            "height": 395
+          },
+          "anchorX": 224,
+          "anchorY": 407,
+          "shoeBottom": 407,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9974683544303797
+        },
+        {
+          "x": 443,
+          "y": 0,
+          "width": 444,
+          "height": 443,
+          "bounds": {
+            "x": 34,
+            "y": 13,
+            "width": 311,
+            "height": 395
+          },
+          "anchorX": 225,
+          "anchorY": 407,
+          "shoeBottom": 407,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9952983725135625
+        },
+        {
+          "x": 887,
+          "y": 0,
+          "width": 443,
+          "height": 443,
+          "bounds": {
+            "x": 32,
+            "y": 13,
+            "width": 313,
+            "height": 393
+          },
+          "anchorX": 224,
+          "anchorY": 405,
+          "shoeBottom": 405,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9981824790985097
+        },
+        {
+          "x": 1330,
+          "y": 0,
+          "width": 444,
+          "height": 443,
+          "bounds": {
+            "x": 31,
+            "y": 13,
+            "width": 314,
+            "height": 393
+          },
+          "anchorX": 224.5,
+          "anchorY": 405,
+          "shoeBottom": 405,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9960014540167212
+        },
+        {
+          "x": 0,
+          "y": 443,
+          "width": 443,
+          "height": 444,
+          "bounds": {
+            "x": 30,
+            "y": 15,
+            "width": 315,
+            "height": 391
+          },
+          "anchorX": 224.5,
+          "anchorY": 405,
+          "shoeBottom": 405,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9989039093898429
+        },
+        {
+          "x": 443,
+          "y": 443,
+          "width": 444,
+          "height": 444,
+          "bounds": {
+            "x": 27,
+            "y": 18,
+            "width": 320,
+            "height": 389
+          },
+          "anchorX": 226,
+          "anchorY": 406,
+          "shoeBottom": 406,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 1.0018362100624312
+        },
+        {
+          "x": 887,
+          "y": 443,
+          "width": 443,
+          "height": 444,
+          "bounds": {
+            "x": 21,
+            "y": 20,
+            "width": 325,
+            "height": 389
+          },
+          "anchorX": 224.5,
+          "anchorY": 408,
+          "shoeBottom": 408,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9996327579875138
+        },
+        {
+          "x": 1330,
+          "y": 443,
+          "width": 444,
+          "height": 444,
+          "bounds": {
+            "x": 15,
+            "y": 22,
+            "width": 333,
+            "height": 388
+          },
+          "anchorX": 227,
+          "anchorY": 409,
+          "shoeBottom": 409,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 1
+        }
+      ]
+    },
+    "IDLE_RUN": {
+      "key": "IDLE_RUN",
+      "from": "IDLE",
+      "to": "RUN",
+      "file": "./assets/animation-lab/transitions/idle-run.png",
+      "fps": 24,
+      "frameCount": 8,
+      "entryFrame": 0,
+      "sha256": "ce99416e3ae8d04685bf5c8842b3a28a85d4e269bbdba064bdb173028ed9fc86",
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 443,
+          "height": 443,
+          "bounds": {
+            "x": 70,
+            "y": 15,
+            "width": 271,
+            "height": 409
+          },
+          "anchorX": 247,
+          "anchorY": 423,
+          "shoeBottom": 423,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 0.9975550122249389
+        },
+        {
+          "x": 443,
+          "y": 0,
+          "width": 444,
+          "height": 443,
+          "bounds": {
+            "x": 62,
+            "y": 20,
+            "width": 281,
+            "height": 404
+          },
+          "anchorX": 245.5,
+          "anchorY": 423,
+          "shoeBottom": 423,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 1.002828854314003
+        },
+        {
+          "x": 887,
+          "y": 0,
+          "width": 443,
+          "height": 443,
+          "bounds": {
+            "x": 53,
+            "y": 27,
+            "width": 291,
+            "height": 397
+          },
+          "anchorX": 243,
+          "anchorY": 423,
+          "shoeBottom": 423,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 1.013314141777618
+        },
+        {
+          "x": 1330,
+          "y": 0,
+          "width": 444,
+          "height": 443,
+          "bounds": {
+            "x": 42,
+            "y": 36,
+            "width": 303,
+            "height": 388
+          },
+          "anchorX": 242.5,
+          "anchorY": 423,
+          "shoeBottom": 423,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 1.0294550810014729
+        },
+        {
+          "x": 0,
+          "y": 443,
+          "width": 443,
+          "height": 444,
+          "bounds": {
+            "x": 35,
+            "y": 39,
+            "width": 307,
+            "height": 387
+          },
+          "anchorX": 239.5,
+          "anchorY": 425,
+          "shoeBottom": 425,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 1.0247323735695828
+        },
+        {
+          "x": 443,
+          "y": 443,
+          "width": 444,
+          "height": 444,
+          "bounds": {
+            "x": 27,
+            "y": 40,
+            "width": 317,
+            "height": 386
+          },
+          "anchorX": 237,
+          "anchorY": 425,
+          "shoeBottom": 425,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 1.0199851961509994
+        },
+        {
+          "x": 887,
+          "y": 443,
+          "width": 443,
+          "height": 444,
+          "bounds": {
+            "x": 17,
+            "y": 40,
+            "width": 327,
+            "height": 387
+          },
+          "anchorX": 228,
+          "anchorY": 426,
+          "shoeBottom": 426,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 1.009966777408638
+        },
+        {
+          "x": 1330,
+          "y": 443,
+          "width": 444,
+          "height": 444,
+          "bounds": {
+            "x": 16,
+            "y": 41,
+            "width": 329,
+            "height": 386
+          },
+          "anchorX": 221,
+          "anchorY": 426,
+          "shoeBottom": 426,
+          "grounded": true,
+          "edgeCore": 0,
+          "renderScale": 1.005181347150259
+        }
+      ]
+    }
+  }
+}

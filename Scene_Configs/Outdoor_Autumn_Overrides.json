@@ -1,0 +1,443 @@
+{
+  "format": "season-overrides",
+  "version": 1,
+  "sceneId": "outdoor-autumn",
+  "world": {
+    "width": 1128.7300212581686,
+    "height": 1076.923076923077
+  },
+  "changes": {
+    "sky": {
+      "dx": 2.2636565493262424,
+      "dy": -104.08519069998903
+    },
+    "mountains": {
+      "dx": -130.83669917729458,
+      "dy": -29.803891926033828,
+      "widthRatio": 0.8653329467967156,
+      "heightRatio": 0.8653329467967157
+    },
+    "far-bank": {
+      "dx": 21.152604914381754,
+      "dy": -24.38204498184831,
+      "widthRatio": 1.0252305059523912,
+      "heightRatio": 1.025230505952391
+    },
+    "ground-edge-extension": {
+      "dx": 305.4624939906537,
+      "dy": -29.44513020795739,
+      "properties": {
+        "visible": false
+      }
+    },
+    "ground": {
+      "dx": -57.45002431541502,
+      "dy": 32.08196957164455,
+      "widthRatio": 0.9312174764923044,
+      "heightRatio": 0.931217476492304
+    },
+    "upper-field": {
+      "dx": 11.560813535219495,
+      "dy": -11.876326332224721
+    },
+    "water-platform": {
+      "dx": -6.015962673262038,
+      "dy": 15.983628836924709,
+      "widthRatio": 1.021839295523845,
+      "heightRatio": 1.021839295523845
+    },
+    "fishing-platform": {
+      "dx": -8.864346890469506,
+      "dy": 14.503015651824285
+    },
+    "watermill": {
+      "dx": 11.053765395280607,
+      "dy": 0.40903280773653705,
+      "widthRatio": 1.0538340768183565,
+      "heightRatio": 1.0538340768183565,
+      "depthDelta": 0.40903280773653705
+    },
+    "house": {
+      "dx": 7.209144245146945,
+      "dy": 9.667736186625348,
+      "widthRatio": 1.0827320861257503,
+      "heightRatio": 1.0827320861257503,
+      "depthDelta": 9.667736186625348
+    },
+    "shed": {
+      "dx": 5.567414801238925,
+      "dy": 10.197627860184298,
+      "depthDelta": 10.197627860184298
+    },
+    "yard-tree": {
+      "dx": 8.29653812536236,
+      "dy": 15.897653082214902,
+      "depthDelta": 15.897653082214902
+    },
+    "left-tree": {
+      "dx": 4.4960170336652965,
+      "dy": -7.948753767649009
+    },
+    "water-bucket": {
+      "dx": -0.14484119203211776,
+      "dy": -0.37077580046093317,
+      "depthDelta": -0.37077580046093317
+    },
+    "reed-clump": {
+      "properties": {
+        "visible": false
+      }
+    },
+    "yard-flowers": {
+      "dx": 12.097131990517802,
+      "dy": -11.128226165325259,
+      "depthDelta": -11.128226165325259,
+      "properties": {
+        "visible": false
+      }
+    },
+    "autumn-foreground-bush": {
+      "dx": 941.7400088839593,
+      "dy": 41.71573662814558,
+      "widthRatio": 2.6460591682196446,
+      "heightRatio": 2.646059168219644,
+      "depthDelta": 41.71573662814558
+    },
+    "autumn-ground-patch": {
+      "dx": -1003.8909679193674,
+      "dy": -459.1520886109273,
+      "widthRatio": 1.8329775655033236,
+      "heightRatio": 1.8329775655033234
+    },
+    "autumn-rock-wide": {
+      "dx": 477.6727504869277,
+      "dy": 162.83908628792358,
+      "widthRatio": 0.5449913726921529,
+      "heightRatio": 0.5449913726921529,
+      "depthDelta": 162.83908628792358,
+      "properties": {
+        "visible": true
+      }
+    },
+    "autumn-rock-small": {
+      "dx": 157.47233349383225,
+      "dy": 261.24916891966313,
+      "widthRatio": 0.2740239168280923,
+      "heightRatio": 0.27402391682809235,
+      "depthDelta": 261.24916891966313,
+      "properties": {
+        "visible": true
+      }
+    },
+    "autumn-rock-tall": {
+      "dx": 80.35655013708174,
+      "dy": -201.44529085383476,
+      "depthDelta": -551.5214948831059,
+      "properties": {
+        "depthMode": "fixed"
+      }
+    },
+    "autumn-grass-cover": {
+      "dx": 280.6748566370544,
+      "dy": 64.22051672145312,
+      "widthRatio": 3.390047978766997,
+      "heightRatio": 3.3900479787669973,
+      "properties": {
+        "visible": true
+      }
+    }
+  },
+  "deleted": [],
+  "added": [
+    {
+      "id": "autumn-grass-cover-copy-9d57bcdc-28fc-47b6-bfaa-b7d05f578817",
+      "name": "秋季草地遮挡（待摆放）（副本）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/grass-cover.png",
+      "frame": {
+        "x": 33,
+        "y": 378,
+        "width": 1184,
+        "height": 483
+      },
+      "x": 961.8304721657721,
+      "y": 754.2874688030413,
+      "width": 339.63273713939907,
+      "height": 138.5495034107515,
+      "scaleX": 0.28685197393530326,
+      "scaleY": 0.2868519739353033,
+      "rotation": 0,
+      "zIndex": -405,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "autumn-grass-cover"
+    },
+    {
+      "id": "autumn-foreground-bush-copy-9bfa6c3b-1d16-4c5d-9c7d-cd445894354c",
+      "name": "秋季草丛遮挡（副本）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/occluder-bush.png",
+      "frame": {
+        "x": 13,
+        "y": 12,
+        "width": 825,
+        "height": 504
+      },
+      "x": 1125.6296366671245,
+      "y": 356.7632606423327,
+      "width": 229.25927566051018,
+      "height": 140.0565756762389,
+      "scaleX": 0.2778900311036487,
+      "scaleY": 0.2778900311036486,
+      "rotation": 0,
+      "zIndex": 353.7632606423327,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "autumn-foreground-bush"
+    },
+    {
+      "id": "autumn-foreground-bush-copy-9bfa6c3b-1d16-4c5d-9c7d-cd445894354c-copy-6d2270d8-f222-48e9-9dc8-72ab5ec876e1",
+      "name": "秋季草丛遮挡（副本2）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/occluder-bush.png",
+      "frame": {
+        "x": 13,
+        "y": 12,
+        "width": 825,
+        "height": 504
+      },
+      "x": 711.8778569752633,
+      "y": 617.5318475164612,
+      "width": 111.688823665776,
+      "height": 68.23171773036495,
+      "scaleX": 0.13538039232215274,
+      "scaleY": 0.13538039232215268,
+      "rotation": 0,
+      "zIndex": 614.5318475164612,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "autumn-foreground-bush"
+    },
+    {
+      "id": "autumn-grass-cover-copy-9d57bcdc-28fc-47b6-bfaa-b7d05f578817-copy-1711e0f1-ef14-4522-9f75-5329debaa4f2",
+      "name": "秋季草地遮挡（待摆放）（副本2）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/grass-cover.png",
+      "frame": {
+        "x": 33,
+        "y": 378,
+        "width": 1184,
+        "height": 483
+      },
+      "x": 798.7632178482988,
+      "y": 678.6698445273503,
+      "width": 179.69407560881214,
+      "height": 73.30425550595969,
+      "scaleX": 0.15176864493987513,
+      "scaleY": 0.15176864493987513,
+      "rotation": 0,
+      "zIndex": -405,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "autumn-grass-cover"
+    },
+    {
+      "id": "autumn-grass-cover-copy-9d57bcdc-28fc-47b6-bfaa-b7d05f578817-cop-copy-bbc26d72-366c-4ac0-9cee-4b3dafb35a16",
+      "name": "秋季草地遮挡（待摆放）（副本3）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/grass-cover.png",
+      "frame": {
+        "x": 33,
+        "y": 378,
+        "width": 1184,
+        "height": 483
+      },
+      "x": 637.6315995974003,
+      "y": 621.4311972903971,
+      "width": 179.69407560881214,
+      "height": 73.30425550595969,
+      "scaleX": 0.15176864493987513,
+      "scaleY": 0.15176864493987513,
+      "rotation": 0,
+      "zIndex": -405,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "autumn-grass-cover"
+    },
+    {
+      "id": "autumn-foreground-bush-copy-9bfa6c3b-1d16-4c5d-9c7d-cd445894354c-copy-dfd4b18e-2f86-469a-aab6-16d827ba5944",
+      "name": "秋季草丛遮挡（副本3）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/occluder-bush.png",
+      "frame": {
+        "x": 13,
+        "y": 12,
+        "width": 825,
+        "height": 504
+      },
+      "x": 0.3128991586790981,
+      "y": 798.6958894289307,
+      "width": 158.2711902306697,
+      "height": 96.68930894091818,
+      "scaleX": 0.19184386694626632,
+      "scaleY": 0.19184386694626623,
+      "rotation": 0,
+      "zIndex": 795.6958894289307,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "autumn-foreground-bush"
+    },
+    {
+      "id": "autumn-rock-wide-copy-e64dc878-952e-4a5f-9551-8fcf135af84f",
+      "name": "秋季石头1（横石）（副本）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/rock-wide.png",
+      "frame": {
+        "x": 54,
+        "y": 291,
+        "width": 1126,
+        "height": 639
+      },
+      "x": 1055.8364937800281,
+      "y": 683.7560960773866,
+      "width": 58.59599764159451,
+      "height": 33.25296846623348,
+      "scaleX": 0.052039074282055515,
+      "scaleY": 0.05203907428205553,
+      "rotation": 0,
+      "zIndex": 683.7560960773866,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "autumn-rock-wide"
+    },
+    {
+      "id": "autumn-rock-small-copy-d5dcee34-3bea-458b-bfb3-1b0a330150c5",
+      "name": "秋季石头2（小石）（副本）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/rock-small.png",
+      "frame": {
+        "x": 311,
+        "y": 383,
+        "width": 633,
+        "height": 428
+      },
+      "x": 565.4613294211846,
+      "y": 581.3751714891329,
+      "width": 98.0097472376773,
+      "height": 66.26883383526997,
+      "scaleX": 0.15483372391418215,
+      "scaleY": 0.15483372391418218,
+      "rotation": 0,
+      "zIndex": 581.3751714891329,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "autumn-rock-small"
+    },
+    {
+      "id": "autumn-rock-wide-copy-3497c526-2152-451f-962a-5facc2a65e44",
+      "name": "秋季石头1（横石）（副本2）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/rock-wide.png",
+      "frame": {
+        "x": 54,
+        "y": 291,
+        "width": 1126,
+        "height": 639
+      },
+      "x": 772.8509996017566,
+      "y": 613.7824613298393,
+      "width": 59.333880311680105,
+      "height": 33.67171360494102,
+      "scaleX": 0.05269438748817061,
+      "scaleY": 0.05269438748817061,
+      "rotation": 0,
+      "zIndex": 613.7824613298393,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "autumn-rock-wide"
+    },
+    {
+      "id": "autumn-foreground-bush-copy-9bfa6c3b-1d16-4c5d-9c7d-cd445894354c-copy-8944cf36-d9d5-4825-9659-2fe10cdedc41",
+      "name": "秋季草丛遮挡（副本4）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/occluder-bush.png",
+      "frame": {
+        "x": 13,
+        "y": 12,
+        "width": 825,
+        "height": 504
+      },
+      "x": 0.19981789389157356,
+      "y": 557.666604352717,
+      "width": 158.2711902306697,
+      "height": 96.68930894091818,
+      "scaleX": 0.19184386694626632,
+      "scaleY": 0.19184386694626623,
+      "rotation": 0,
+      "zIndex": 554.666604352717,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "autumn-foreground-bush"
+    }
+  ]
+}

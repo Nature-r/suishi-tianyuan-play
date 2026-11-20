@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "season": "spring",
+  "variants": {
+    "sky": {
+      "resource": "./assets/landscape/spring/sky.png",
+      "frame": {
+        "x": 8,
+        "y": 193,
+        "width": 1431,
+        "height": 701
+      }
+    },
+    "mountains": {
+      "resource": "./assets/landscape/spring/mountains.png",
+      "frame": {
+        "x": 0,
+        "y": 206,
+        "width": 2172,
+        "height": 268
+      }
+    },
+    "far-bank": {
+      "resource": "./assets/landscape/spring/far-bank.png",
+      "frame": {
+        "x": 5,
+        "y": 0,
+        "width": 2167,
+        "height": 724
+      }
+    },
+    "house": {
+      "resource": "./assets/landscape/spring/house.png",
+      "frame": {
+        "x": 8,
+        "y": 8,
+        "width": 1240,
+        "height": 1172
+      }
+    },
+    "shed": {
+      "resource": "./assets/landscape/spring/shed.png",
+      "frame": {
+        "x": 60,
+        "y": 82,
+        "width": 1163,
+        "height": 1099
+      }
+    },
+    "yard-tree": {
+      "resource": "./assets/landscape/spring/tree.png",
+      "frame": {
+        "x": 94,
+        "y": 16,
+        "width": 1070,
+        "height": 1224
+      }
+    },
+    "left-tree": {
+      "resource": "./assets/landscape/spring/tree.png",
+      "frame": {
+        "x": 94,
+        "y": 16,
+        "width": 1070,
+        "height": 1224
+      }
+    },
+    "watermill": {
+      "resource": "./assets/landscape/spring/watermill.png",
+      "frame": {
+        "x": 19,
+        "y": 48,
+        "width": 1235,
+        "height": 1206
+      }
+    },
+    "river": {
+      "resource": "./assets/landscape/spring/river.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 2172,
+        "height": 724
+      },
+      "clip": null
+    },
+    "ground": {
+      "resource": "./assets/landscape/spring/ground.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 1254,
+        "height": 1108
+      }
+    },
+    "water-platform": {
+      "resource": "./assets/landscape/spring/platform.png",
+      "frame": {
+        "x": 55,
+        "y": 331,
+        "width": 1147,
+        "height": 587
+      }
+    },
+    "fishing-platform": {
+      "resource": "./assets/landscape/spring/platform.png",
+      "frame": {
+        "x": 55,
+        "y": 331,
+        "width": 1147,
+        "height": 587
+      }
+    },
+    "garden-ground": {
+      "resource": "./assets/landscape/spring/grass-patch-01.png",
+      "frame": {
+        "x": 55,
+        "y": 354,
+        "width": 1125,
+        "height": 518
+      }
+    },
+    "upper-field": {
+      "resource": "./assets/landscape/spring/grass-patch-02.png",
+      "frame": {
+        "x": 132,
+        "y": 396,
+        "width": 990,
+        "height": 463
+      }
+    },
+    "lower-field": {
+      "resource": "./assets/landscape/spring/grass-patch-01.png",
+      "frame": {
+        "x": 55,
+        "y": 354,
+        "width": 1125,
+        "height": 518
+      }
+    },
+    "ground-edge-extension": {
+      "resource": "./assets/landscape/spring/ground.png",
+      "frame": {
+        "x": 410,
+        "y": 1000,
+        "width": 650,
+        "height": 80
+      }
+    }
+  },
+  "attachments": [
+    {
+      "id": "spring-rock-01",
+      "name": "春季石头1（待摆放）",
+      "parentId": "ground",
+      "u": 0.45,
+      "v": 0.45,
+      "widthRatio": 0.12,
+      "category": "前景遮挡物",
+      "depthMode": "y",
+      "visible": false,
+      "resource": "./assets/landscape/spring/rock-01.png",
+      "frame": {
+        "x": 155,
+        "y": 358,
+        "width": 952,
+        "height": 585
+      }
+    },
+    {
+      "id": "spring-rock-02",
+      "name": "春季石头2（待摆放）",
+      "parentId": "ground",
+      "u": 0.82,
+      "v": 0.38,
+      "widthRatio": 0.1,
+      "category": "前景遮挡物",
+      "depthMode": "y",
+      "visible": false,
+      "resource": "./assets/landscape/spring/rock-02.png",
+      "frame": {
+        "x": 185,
+        "y": 315,
+        "width": 884,
+        "height": 611
+      }
+    },
+    {
+      "id": "spring-occluder-bush",
+      "name": "春季草丛遮挡（待摆放）",
+      "parentId": "ground",
+      "u": 0.08,
+      "v": 0.9,
+      "widthRatio": 0.11,
+      "category": "前景遮挡物",
+      "depthMode": "y",
+      "visible": false,
+      "resource": "./assets/landscape/spring/occluder-bush.png",
+      "frame": {
+        "x": 207,
+        "y": 323,
+        "width": 819,
+        "height": 522
+      }
+    },
+    {
+      "id": "spring-occluder-ground",
+      "name": "春季草地遮挡（待摆放）",
+      "parentId": "ground",
+      "u": 0.92,
+      "v": 0.85,
+      "widthRatio": 0.13,
+      "category": "前景遮挡物",
+      "depthMode": "fixed",
+      "visible": false,
+      "resource": "./assets/landscape/spring/occluder-ground.png",
+      "frame": {
+        "x": 98,
+        "y": 413,
+        "width": 1058,
+        "height": 481
+      },
+      "zIndex": -405
+    },
+    {
+      "id": "spring-river-extension-1",
+      "name": "春季河流水面延展1",
+      "parentId": "river",
+      "u": 0.5,
+      "v": 0.2,
+      "widthRatio": 1,
+      "category": "河流与水车",
+      "depthMode": "fixed",
+      "zIndex": -701,
+      "anchor": {
+        "x": 0.5,
+        "y": 0
+      },
+      "resource": "./assets/landscape/spring/river.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 2172,
+        "height": 724
+      }
+    },
+    {
+      "id": "spring-river-extension-2",
+      "name": "春季河流水面延展2",
+      "parentId": "river",
+      "u": 0.5,
+      "v": 0.4,
+      "widthRatio": 1,
+      "category": "河流与水车",
+      "depthMode": "fixed",
+      "zIndex": -702,
+      "anchor": {
+        "x": 0.5,
+        "y": 0
+      },
+      "resource": "./assets/landscape/spring/river.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "width": 2172,
+        "height": 724
+      }
+    }
+  ]
+}

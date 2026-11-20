@@ -1,0 +1,92 @@
+{
+  "settings": {
+    "x": 86,
+    "y": 57,
+    "width": 524,
+    "height": 519,
+    "sourceWidth": 1284,
+    "sourceHeight": 1225
+  },
+  "weather": {
+    "x": 666,
+    "y": 56,
+    "width": 525,
+    "height": 522,
+    "sourceWidth": 1284,
+    "sourceHeight": 1225
+  },
+  "tools": {
+    "x": 666,
+    "y": 641,
+    "width": 524,
+    "height": 527,
+    "sourceWidth": 1284,
+    "sourceHeight": 1225
+  },
+  "bag": {
+    "x": 57,
+    "y": 32,
+    "width": 1092,
+    "height": 1144,
+    "sourceWidth": 1254,
+    "sourceHeight": 1254
+  },
+  "mouse": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 444,
+      "height": 444,
+      "footY": 0.9054054054054054
+    },
+    {
+      "x": 444,
+      "y": 0,
+      "width": 443,
+      "height": 444,
+      "footY": 0.8873873873873874
+    },
+    {
+      "x": 887,
+      "y": 0,
+      "width": 444,
+      "height": 444,
+      "footY": 0.795045045045045
+    },
+    {
+      "x": 1331,
+      "y": 0,
+      "width": 443,
+      "height": 444,
+      "footY": 0.8783783783783784
+    },
+    {
+      "x": 0,
+      "y": 444,
+      "width": 444,
+      "height": 443,
+      "footY": 0.90744920993228
+    },
+    {
+      "x": 444,
+      "y": 444,
+      "width": 443,
+      "height": 443,
+      "footY": 0.9142212189616253
+    },
+    {
+      "x": 887,
+      "y": 444,
+      "width": 444,
+      "height": 443,
+      "footY": 0.9164785553047404
+    },
+    {
+      "x": 1331,
+      "y": 444,
+      "width": 443,
+      "height": 443,
+      "footY": 0.9142212189616253
+    }
+  ]
+}

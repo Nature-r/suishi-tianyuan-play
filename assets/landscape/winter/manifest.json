@@ -1,0 +1,172 @@
+[
+  {
+    "source": "冬季场景/4fc44086-a69a-46f1-a793-81642ec07054.png",
+    "name": "4fc44086-a69a-46f1-a793-81642ec07054.png",
+    "bytes": 962404,
+    "sha256": "f58e3897f48614c3c3261a240fa837b6f2ac36d4f797f3ab1e97f800fd268be8",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/platform.png"
+  },
+  {
+    "source": "冬季场景/冬季仓库.png",
+    "name": "冬季仓库.png",
+    "bytes": 2088207,
+    "sha256": "4a699d992bfd9e4ea148949459b96087ac735f28a63b87930306c1bd4b3e6fa0",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/shed.png"
+  },
+  {
+    "source": "冬季场景/冬季大树.png",
+    "name": "冬季大树.png",
+    "bytes": 1929341,
+    "sha256": "f0fa152e139a3f25fc384a9f101e2bb2fe46e21e0351747c8fe8eb4ff587261f",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/tree.png"
+  },
+  {
+    "source": "冬季场景/冬季天空.png",
+    "name": "冬季天空.png",
+    "bytes": 983921,
+    "sha256": "1db2b74747b40ea8ed6783b807e7e8825b06bb09d0cf9008c306e5c14c4b6cac",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/sky.png"
+  },
+  {
+    "source": "冬季场景/冬季房子.png",
+    "name": "冬季房子.png",
+    "bytes": 1894207,
+    "sha256": "a517b66694861a6c0d04462d3792b40af077b5bb83c4160a4d92d4e6bc7d3b5e",
+    "width": 1402,
+    "height": 1122,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/house.png"
+  },
+  {
+    "source": "冬季场景/冬季树林.png",
+    "name": "冬季树林.png",
+    "bytes": 1829343,
+    "sha256": "f13d2ffa557694d360d66c29fc7b4a13d121a5cf1f703ba94abbc61f0aae4b2a",
+    "width": 1448,
+    "height": 1086,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/far-bank.png"
+  },
+  {
+    "source": "冬季场景/冬季水车.png",
+    "name": "冬季水车.png",
+    "bytes": 2321598,
+    "sha256": "fd2750a992dc3d25d164372159e4da6a0319f8e1219a4398b934a76e284f401d",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/watermill.png"
+  },
+  {
+    "source": "冬季场景/冬季河流.png",
+    "name": "冬季河流.png",
+    "bytes": 1370428,
+    "sha256": "1dae0742fc461894a000cff1c5bdbc3a2f2c09911d05cf1b0a84c034f77f5093",
+    "width": 1774,
+    "height": 887,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/river.png"
+  },
+  {
+    "source": "冬季场景/冬季石头素材_01.png",
+    "name": "冬季石头素材_01.png",
+    "bytes": 298935,
+    "sha256": "c2a0b71b992872958978497663d22380c485161e972d156b4944aefea8f1bbe0",
+    "width": 647,
+    "height": 382,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/rock-01.png"
+  },
+  {
+    "source": "冬季场景/冬季石头素材_02.png",
+    "name": "冬季石头素材_02.png",
+    "bytes": 277082,
+    "sha256": "97a34d1859681c79613d87befba8a490e289d98922169ffb793a5781ab723219",
+    "width": 577,
+    "height": 372,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/rock-02.png"
+  },
+  {
+    "source": "冬季场景/冬季草地.png",
+    "name": "冬季草地.png",
+    "bytes": 1777638,
+    "sha256": "bd738fb1cecf748987c088f9f5253017d1efc322253d4a68a1167e190a27995f",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/ground.png"
+  },
+  {
+    "source": "冬季场景/冬季远山.png",
+    "name": "冬季远山.png",
+    "bytes": 750013,
+    "sha256": "b105126d48de031262ba8f559b22f449dcd7743d014f5344a320af7a3aa0df8b",
+    "width": 2172,
+    "height": 724,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/mountains.png"
+  },
+  {
+    "source": "冬季场景/冬季雪人素材.png",
+    "name": "冬季雪人素材.png",
+    "bytes": 1270936,
+    "sha256": "f6c2aa34d9afa0655dc6e436dcf1b0e5ee082896a74c9f20b898a810a868d9e7",
+    "width": 1312,
+    "height": 1199,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/snowman.png"
+  },
+  {
+    "source": "冬季场景/冬季雪地素材_01.png",
+    "name": "冬季雪地素材_01.png",
+    "bytes": 415433,
+    "sha256": "7d416f83ac74c5fd9a3141b662a1c60d2855ecde5d99c09aa386c52c92e4a498",
+    "width": 761,
+    "height": 396,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/snow-patch-01.png"
+  },
+  {
+    "source": "冬季场景/冬季雪地素材_02.png",
+    "name": "冬季雪地素材_02.png",
+    "bytes": 405308,
+    "sha256": "6c7136df84a82761d8463e2e7caa3c516d267df6d64bbd40d64d36992b74f18e",
+    "width": 761,
+    "height": 401,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/snow-patch-02.png"
+  },
+  {
+    "source": "冬季场景/雪地草丛遮挡素材.png",
+    "name": "雪地草丛遮挡素材.png",
+    "bytes": 1204069,
+    "sha256": "32fe0c4613eb8b2c80c818cd8448cab5cfab416b72f2771ef91c23d8d959c619",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/occluder-bush.png"
+  },
+  {
+    "source": "冬季场景/雪地遮挡素材.png",
+    "name": "雪地遮挡素材.png",
+    "bytes": 623234,
+    "sha256": "849ba556f9ae93371be1c2d44bc24c4549c96fc1e81d67ce59786aa169c0826e",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/winter/occluder-ground.png"
+  }
+]

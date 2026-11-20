@@ -1,0 +1,529 @@
+{
+  "format": "season-overrides",
+  "version": 1,
+  "sceneId": "outdoor-spring",
+  "world": {
+    "width": 1128.7300212581686,
+    "height": 1076.923076923077
+  },
+  "changes": {
+    "sky": {
+      "dx": -10.613754720161637,
+      "dy": 22.668305133592924,
+      "widthRatio": 1.0409968594919232,
+      "heightRatio": 1.040996859491923
+    },
+    "mountains": {
+      "dx": 12.591313099373565
+    },
+    "river": {
+      "dx": 76.54653650647003,
+      "dy": -16.024110747439465,
+      "widthRatio": 1.5875052559501952,
+      "heightRatio": 1.587505255950195
+    },
+    "far-bank": {
+      "dx": -96.16041636171883,
+      "dy": -83.2090498283535,
+      "widthRatio": 1.2133980277853016,
+      "heightRatio": 1.2133980277853016
+    },
+    "ground": {
+      "dx": -12.796120496668664,
+      "dy": 9.240356069692098,
+      "widthRatio": 1.022134121426237,
+      "heightRatio": 1.022134121426237
+    },
+    "garden-ground": {
+      "dx": -439.36575183973383,
+      "dy": -315.53223391663755
+    },
+    "upper-field": {
+      "dx": 157.35437540556416,
+      "dy": -472.3203415155956,
+      "widthRatio": 0.441634184065007,
+      "heightRatio": 0.441634184065007
+    },
+    "lower-field": {
+      "dx": 45.60877147019028,
+      "dy": -706.551514336926,
+      "widthRatio": 0.4123722768802504,
+      "heightRatio": 0.4123722768802504
+    },
+    "water-platform": {
+      "dx": 0.823255714036577,
+      "dy": 3.8741361911504555
+    },
+    "fishing-platform": {
+      "dx": 1.5982035446335203,
+      "dy": 3.099259297239769
+    },
+    "watermill": {
+      "dx": 5.659884663167304,
+      "dy": 21.946007714949303,
+      "widthRatio": 0.9394610776452283,
+      "heightRatio": 0.9394610776452283,
+      "depthDelta": 21.946007714949303
+    },
+    "house": {
+      "dx": -5.339026913441188
+    },
+    "shed": {
+      "dx": 7.637017673874638,
+      "dy": -5.406643994665387,
+      "depthDelta": -5.406643994665387
+    },
+    "yard-tree": {
+      "dx": 0.14749722340337712,
+      "dy": 8.258499965386477,
+      "depthDelta": 8.258499965386477
+    },
+    "left-tree": {
+      "dx": -1.414817722803356,
+      "dy": -6.036532589662102
+    },
+    "reed-clump": {
+      "dx": -613.7141316596861,
+      "dy": 187.154407622936,
+      "widthRatio": 8.480654020366037,
+      "heightRatio": 8.480654020366037,
+      "properties": {
+        "visible": false
+      }
+    },
+    "yard-flowers": {
+      "dx": -25.56101716434846,
+      "dy": 12.073203345117577,
+      "depthDelta": 12.07320334511752
+    },
+    "spring-rock-01": {
+      "dx": 612.6732490839761,
+      "dy": -133.4759350748077,
+      "widthRatio": 0.6081476904757441,
+      "heightRatio": 0.6081476904757441,
+      "depthDelta": -133.4759350748077,
+      "properties": {
+        "visible": true
+      }
+    },
+    "spring-occluder-bush": {
+      "dx": 1030.673573743483,
+      "dy": -642.8669626483218,
+      "widthRatio": 1.4497078780837727,
+      "heightRatio": 1.4497078780837727,
+      "depthDelta": -642.8669626483218,
+      "properties": {
+        "visible": true
+      }
+    }
+  },
+  "deleted": [],
+  "added": [
+    {
+      "id": "spring-occluder-bush-copy-e806dd56-7621-4d34-8007-4c9b9347c485",
+      "name": "春季草丛遮挡（待摆放）（副本）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/spring/occluder-bush.png",
+      "frame": {
+        "x": 207,
+        "y": 323,
+        "width": 819,
+        "height": 522
+      },
+      "x": 1050.5479991248494,
+      "y": 1097.6918658409072,
+      "width": 215.68384543125583,
+      "height": 137.46882456058063,
+      "scaleX": 0.263350238621802,
+      "scaleY": 0.26335023862180196,
+      "rotation": 0,
+      "zIndex": 1097.6918658409072,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "spring-occluder-bush"
+    },
+    {
+      "id": "spring-rock-01-copy-9f0a4bb2-d52a-4d9b-9145-822dca3de69c",
+      "name": "春季石头1（待摆放）（副本）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/spring/rock-01.png",
+      "frame": {
+        "x": 155,
+        "y": 358,
+        "width": 952,
+        "height": 585
+      },
+      "x": 1120.6123070441486,
+      "y": 432.4873757079707,
+      "width": 103.27653036426483,
+      "height": 63.46299397383921,
+      "scaleX": 0.10848375038263113,
+      "scaleY": 0.10848375038263113,
+      "rotation": 0,
+      "zIndex": 432.4873757079707,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "spring-rock-01"
+    },
+    {
+      "id": "spring-occluder-bush-copy-93efe7e8-f756-4fd8-96ae-5ea97889b97f",
+      "name": "春季草丛遮挡（待摆放）（副本2）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/spring/occluder-bush.png",
+      "frame": {
+        "x": 207,
+        "y": 323,
+        "width": 819,
+        "height": 522
+      },
+      "x": 1127.7950114602506,
+      "y": 375.512492863142,
+      "width": 195.03260410139322,
+      "height": 124.3064949217671,
+      "scaleX": 0.23813504774284885,
+      "scaleY": 0.23813504774284885,
+      "rotation": 0,
+      "zIndex": 375.512492863142,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "spring-occluder-bush"
+    },
+    {
+      "id": "mountains-copy-dc3e0d6f-1189-4565-977e-27c4c8e5a414",
+      "name": "远景大山（副本）",
+      "category": "环境背景",
+      "resource": "./assets/landscape/spring/mountains.png",
+      "frame": {
+        "x": 0,
+        "y": 206,
+        "width": 2172,
+        "height": 268
+      },
+      "x": 1146.2242460564346,
+      "y": 312.988418793334,
+      "width": 1718.475668047704,
+      "height": 212.04027579962462,
+      "scaleX": 0.7911950589538231,
+      "scaleY": 0.7911950589538232,
+      "rotation": 0,
+      "zIndex": -900,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "mountains"
+    },
+    {
+      "id": "spring-rock-01-copy-02047269-f6c6-407f-be76-398a707be771",
+      "name": "春季石头1（待摆放）（副本2）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/spring/rock-01.png",
+      "frame": {
+        "x": 155,
+        "y": 358,
+        "width": 952,
+        "height": 585
+      },
+      "x": 1034.0354336834437,
+      "y": 455.55032265971937,
+      "width": 61.567433316731126,
+      "height": 37.83292908643667,
+      "scaleX": 0.0646716736520285,
+      "scaleY": 0.0646716736520285,
+      "rotation": 0,
+      "zIndex": 455.55032265971937,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "spring-rock-01"
+    },
+    {
+      "id": "spring-rock-01-copy-02047269-f6c6-407f-be76-398a707be771-copy-7f6d7d17-d6e1-41d1-a049-5e14658e94c2",
+      "name": "春季石头1（待摆放）（副本3）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/spring/rock-01.png",
+      "frame": {
+        "x": 155,
+        "y": 358,
+        "width": 952,
+        "height": 585
+      },
+      "x": 990.0737460249293,
+      "y": 446.14124367239697,
+      "width": 50.8598798790656,
+      "height": 31.253182488711534,
+      "scaleX": 0.05342424357044706,
+      "scaleY": 0.05342424357044707,
+      "rotation": 0,
+      "zIndex": 446.14124367239697,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "spring-rock-01"
+    },
+    {
+      "id": "spring-rock-01-copy-876f50b2-7e8a-4dde-9204-d6fba5f92840",
+      "name": "春季石头1（待摆放）（副本4）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/spring/rock-01.png",
+      "frame": {
+        "x": 155,
+        "y": 358,
+        "width": 952,
+        "height": 585
+      },
+      "x": 1080.1566996852364,
+      "y": 465.27664768593576,
+      "width": 40.292784720239524,
+      "height": 24.759746913172403,
+      "scaleX": 0.04232435369773059,
+      "scaleY": 0.042324353697730605,
+      "rotation": 0,
+      "zIndex": 465.27664768593576,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "spring-rock-01"
+    },
+    {
+      "id": "yard-flowers-copy-70dc8ec6-1883-4067-8d7b-eb63e4387604",
+      "name": "庭院花草（副本）",
+      "category": "树木与植物",
+      "resource": "./assets/landscape/plants.png",
+      "frame": {
+        "x": 700,
+        "y": 390,
+        "width": 680,
+        "height": 300
+      },
+      "x": 1104.3455316783993,
+      "y": 944.0432823652006,
+      "width": 254.7904789095905,
+      "height": 112.40756422481934,
+      "scaleX": 0.3746918807493978,
+      "scaleY": 0.3746918807493978,
+      "rotation": 0,
+      "zIndex": 927.8894362113546,
+      "opacity": 1,
+      "visible": false,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "yard-flowers"
+    },
+    {
+      "id": "yard-flowers-copy-ea2505f7-5dbf-4947-a807-798fa3dc270e",
+      "name": "庭院花草（副本2）",
+      "category": "树木与植物",
+      "resource": "./assets/landscape/plants.png",
+      "frame": {
+        "x": 700,
+        "y": 390,
+        "width": 680,
+        "height": 300
+      },
+      "x": 1082.5208664500356,
+      "y": 441.2592058688462,
+      "width": 273.1660967654844,
+      "height": 120.51445445536076,
+      "scaleX": 0.40171484818453584,
+      "scaleY": 0.4017148481845359,
+      "rotation": 0,
+      "zIndex": 425.10535971500013,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "yard-flowers"
+    },
+    {
+      "id": "spring-rock-01-copy-02047269-f6c6-407f-be76-398a707be771-copy-02bb1df4-5a76-4923-8371-6760d7532a0b",
+      "name": "春季石头1（待摆放）（副本5）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/spring/rock-01.png",
+      "frame": {
+        "x": 155,
+        "y": 358,
+        "width": 952,
+        "height": 585
+      },
+      "x": 691.3315591675058,
+      "y": 381.1735736175273,
+      "width": 87.22652614699462,
+      "height": 53.60033381931917,
+      "scaleX": 0.09162450225524645,
+      "scaleY": 0.09162450225524645,
+      "rotation": 0,
+      "zIndex": 381.1735736175273,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "spring-rock-01"
+    },
+    {
+      "id": "spring-rock-01-copy-02047269-f6c6-407f-be76-398a707be771-copy-02-copy-295f2ce5-3eef-4dd0-944a-d0848ae81b98",
+      "name": "春季石头1（待摆放）（副本6）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/spring/rock-01.png",
+      "frame": {
+        "x": 155,
+        "y": 358,
+        "width": 952,
+        "height": 585
+      },
+      "x": 744.1721066264258,
+      "y": 385.7422736014549,
+      "width": 48.167176508139725,
+      "height": 29.59852758115729,
+      "scaleX": 0.05059577364300391,
+      "scaleY": 0.05059577364300391,
+      "rotation": 0,
+      "zIndex": 385.7422736014549,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "spring-rock-01"
+    },
+    {
+      "id": "spring-rock-01-copy-02047269-f6c6-407f-be76-398a707be771-copy-02-copy-0da45244-c425-44ec-ae42-c3b739d23bb0",
+      "name": "春季石头1（待摆放）（副本7）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/spring/rock-01.png",
+      "frame": {
+        "x": 155,
+        "y": 358,
+        "width": 952,
+        "height": 585
+      },
+      "x": 773.6951067731486,
+      "y": 393.0868626958875,
+      "width": 39.0876884873652,
+      "height": 24.019220341500674,
+      "scaleX": 0.04105849631025756,
+      "scaleY": 0.04105849631025756,
+      "rotation": 0,
+      "zIndex": 393.0868626958875,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "spring-rock-01"
+    },
+    {
+      "id": "reed-clump-copy-b807f5fb-b951-472c-8595-32cb0381b9eb",
+      "name": "岸边芦苇（副本）",
+      "category": "树木与植物",
+      "resource": "./assets/landscape/plants.png",
+      "frame": {
+        "x": 100,
+        "y": 355,
+        "width": 475,
+        "height": 335
+      },
+      "x": 275.94345404230785,
+      "y": 307.7517732053935,
+      "width": 89.7206494526913,
+      "height": 63.27666856137178,
+      "scaleX": 0.1888855777951396,
+      "scaleY": 0.18888557779513965,
+      "rotation": 0,
+      "zIndex": 536.0384615384614,
+      "opacity": 1,
+      "visible": false,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "seasonalSourceId": "reed-clump"
+    },
+    {
+      "id": "spring-rock-01-copy-2f637772-d5f4-4e14-a80a-c03bd9aad8ab",
+      "name": "春季石头1（待摆放）（副本8）",
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/spring/rock-01.png",
+      "frame": {
+        "x": 155,
+        "y": 358,
+        "width": 952,
+        "height": 585
+      },
+      "x": 1110.363341696523,
+      "y": 727.9069382031819,
+      "width": 84.93710954202948,
+      "height": 52.193496934965594,
+      "scaleX": 0.08921965288028307,
+      "scaleY": 0.08921965288028307,
+      "rotation": 0,
+      "zIndex": 727.9069382031819,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "spring-rock-01"
+    }
+  ]
+}

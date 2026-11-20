@@ -1,0 +1,2656 @@
+{
+  "version": 1,
+  "sceneId": "farm-visuals",
+  "world": {
+    "width": 1128.7300212581686,
+    "height": 1076.923076923077
+  },
+  "nodes": [
+    {
+      "id": "upper:anchor",
+      "name": "上方麦田 · 地块位置（联动全部状态）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/empty-summer.png",
+      "frame": {
+        "x": 70,
+        "y": 122,
+        "width": 1400,
+        "height": 818
+      },
+      "x": 921.4098739501376,
+      "y": 934.9252206852257,
+      "width": 407.5447153105964,
+      "height": 238.12255508861992,
+      "scaleX": 0.29110336807899745,
+      "scaleY": 0.29110336807899745,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "upper:empty-summer",
+      "name": "上方麦田 · 春夏耕地范围",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/empty-summer.png",
+      "frame": {
+        "x": 70,
+        "y": 122,
+        "width": 1400,
+        "height": 818
+      },
+      "x": 921.4098739501376,
+      "y": 934.9252206852257,
+      "width": 407.5447153105964,
+      "height": 238.12255508861992,
+      "scaleX": 0.2911033680789974,
+      "scaleY": 0.29110336807899745,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "upper:empty-autumn",
+      "name": "上方麦田 · 秋季耕地范围",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/empty-autumn.png",
+      "frame": {
+        "x": 15,
+        "y": 88,
+        "width": 1509,
+        "height": 875
+      },
+      "x": 921.4098739501376,
+      "y": 934.9252206852257,
+      "width": 407.5447153105964,
+      "height": 236.3165181555811,
+      "scaleX": 0.27007602074923553,
+      "scaleY": 0.27007602074923553,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "upper:empty-winter",
+      "name": "上方麦田 · 冬季耕地范围",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/empty-winter.png",
+      "frame": {
+        "x": 24,
+        "y": 84,
+        "width": 1489,
+        "height": 840
+      },
+      "x": 921.4098739501376,
+      "y": 934.9252206852257,
+      "width": 407.5447153105964,
+      "height": 229.9110549770994,
+      "scaleX": 0.27370363687749927,
+      "scaleY": 0.27370363687749927,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "upper:tilled",
+      "name": "上方麦田 · 翻耕土壤",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/tilled.png",
+      "frame": {
+        "x": 67,
+        "y": 129,
+        "width": 1401,
+        "height": 809
+      },
+      "x": 926.2312163394596,
+      "y": 933.9815155843381,
+      "width": 407.5447153105964,
+      "height": 235.3345286839918,
+      "scaleX": 0.29089558551791317,
+      "scaleY": 0.2908955855179132,
+      "rotation": -2.1761074427097826,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "upper:sown",
+      "name": "上方麦田 · 播种",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1362,
+        "height": 878
+      },
+      "x": 838.9535366311628,
+      "y": 855.3279037283909,
+      "width": 136.5829252552767,
+      "height": 88.04684902652934,
+      "scaleX": 0.10028114923294912,
+      "scaleY": 0.10028114923294913,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "upper:seedling",
+      "name": "上方麦田 · 幼苗与返青",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/seedling.png",
+      "frame": {
+        "x": 30,
+        "y": 71,
+        "width": 1486,
+        "height": 894
+      },
+      "x": 912.7746196459624,
+      "y": 911.3702721693077,
+      "width": 395.3183738512785,
+      "height": 237.82949274767364,
+      "scaleX": 0.266028515377711,
+      "scaleY": 0.266028515377711,
+      "rotation": 4.3149305561452165,
+      "zIndex": 911.3702721693077,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "upper:overwinter",
+      "name": "上方麦田 · 越冬",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/overwinter.png",
+      "frame": {
+        "x": 15,
+        "y": 50,
+        "width": 1507,
+        "height": 928
+      },
+      "x": 937.3231904845168,
+      "y": 904.4075744800494,
+      "width": 240.2675921810743,
+      "height": 147.9550932608075,
+      "scaleX": 0.15943436773793915,
+      "scaleY": 0.15943436773793912,
+      "rotation": 0,
+      "zIndex": 904.4075744800494,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "upper:heading",
+      "name": "上方麦田 · 抽穗扬花",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 927.9051532662719,
+      "y": 902.3827206243493,
+      "width": 185.8380828704262,
+      "height": 118.87408094225589,
+      "scaleX": 0.12977519753521383,
+      "scaleY": 0.12977519753521385,
+      "rotation": 0,
+      "zIndex": 902.3827206243493,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "upper:growth",
+      "name": "上方麦田 · 正常灌浆（新图）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/growth.png",
+      "frame": {
+        "x": 346,
+        "y": 222,
+        "width": 1029,
+        "height": 607
+      },
+      "x": 917.3710527148024,
+      "y": 917.4626077469088,
+      "width": 395.3183738512785,
+      "height": 233.19558107650735,
+      "scaleX": 0.3841772340634388,
+      "scaleY": 0.3841772340634388,
+      "rotation": 4.328546752484264,
+      "zIndex": 917.4626077469088,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "upper:mature",
+      "name": "上方麦田 · 成熟",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 927.6039125187849,
+      "y": 901.1819936397213,
+      "width": 193.56639128352484,
+      "height": 112.544658189075,
+      "scaleX": 0.13026002105217013,
+      "scaleY": 0.13026002105217013,
+      "rotation": -1.461562274562252,
+      "zIndex": 901.1819936397213,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "upper:stubble",
+      "name": "上方麦田 · 收割残茬",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/stubble.png",
+      "frame": {
+        "x": 43,
+        "y": 210,
+        "width": 1358,
+        "height": 667
+      },
+      "x": 921.4098739501376,
+      "y": 934.9252206852257,
+      "width": 407.5447153105964,
+      "height": 200.17107887493947,
+      "scaleX": 0.3001065650298943,
+      "scaleY": 0.30010656502989425,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "upper:drought",
+      "name": "上方麦田 · 灌浆干旱",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/drought.png",
+      "frame": {
+        "x": 44,
+        "y": 31,
+        "width": 1455,
+        "height": 944
+      },
+      "x": 939.9518077663031,
+      "y": 915.515866437164,
+      "width": 238.32160279977427,
+      "height": 154.6224007168295,
+      "scaleX": 0.16379491601359056,
+      "scaleY": 0.16379491601359059,
+      "rotation": 0,
+      "zIndex": 915.515866437164,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "upper:lodged",
+      "name": "上方麦田 · 延误收获倒伏",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/lodged.png",
+      "frame": {
+        "x": 12,
+        "y": 14,
+        "width": 1511,
+        "height": 972
+      },
+      "x": 938.5314244601607,
+      "y": 915.057227219165,
+      "width": 233.19809137387153,
+      "height": 150.01227320675255,
+      "scaleX": 0.15433361441023927,
+      "scaleY": 0.15433361441023924,
+      "rotation": 0,
+      "zIndex": 915.057227219165,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "lower:anchor",
+      "name": "下方麦田 · 地块位置（联动全部状态）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/empty-summer.png",
+      "frame": {
+        "x": 70,
+        "y": 122,
+        "width": 1400,
+        "height": 818
+      },
+      "x": 685.8876393461073,
+      "y": 1087.4359690737597,
+      "width": 434.36272070235515,
+      "height": 253.79193252466177,
+      "scaleX": 0.310259086215968,
+      "scaleY": 0.3102590862159679,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "lower:empty-summer",
+      "name": "下方麦田 · 春夏耕地范围",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/empty-summer.png",
+      "frame": {
+        "x": 70,
+        "y": 122,
+        "width": 1400,
+        "height": 818
+      },
+      "x": 685.8876393461073,
+      "y": 1087.4359690737597,
+      "width": 434.36272070235515,
+      "height": 253.79193252466177,
+      "scaleX": 0.310259086215968,
+      "scaleY": 0.310259086215968,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "lower:empty-autumn",
+      "name": "下方麦田 · 秋季耕地范围",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/empty-autumn.png",
+      "frame": {
+        "x": 15,
+        "y": 88,
+        "width": 1509,
+        "height": 875
+      },
+      "x": 685.8876393461073,
+      "y": 1087.4359690737597,
+      "width": 434.36272070235515,
+      "height": 251.86705143443388,
+      "scaleX": 0.28784805878221015,
+      "scaleY": 0.28784805878221015,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "lower:empty-winter",
+      "name": "下方麦田 · 冬季耕地范围",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/empty-winter.png",
+      "frame": {
+        "x": 24,
+        "y": 84,
+        "width": 1489,
+        "height": 840
+      },
+      "x": 685.8876393461073,
+      "y": 1087.4359690737597,
+      "width": 434.36272070235515,
+      "height": 245.04008421086522,
+      "scaleX": 0.2917143859653158,
+      "scaleY": 0.29171438596531574,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "lower:tilled",
+      "name": "下方麦田 · 翻耕土壤",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/tilled.png",
+      "frame": {
+        "x": 67,
+        "y": 129,
+        "width": 1401,
+        "height": 809
+      },
+      "x": 690.7521154418084,
+      "y": 1095.1878839681106,
+      "width": 434.36272070235515,
+      "height": 250.82044328922578,
+      "scaleX": 0.31003763076542123,
+      "scaleY": 0.31003763076542123,
+      "rotation": 0.5742281286240645,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "lower:sown",
+      "name": "下方麦田 · 播种",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1362,
+        "height": 878
+      },
+      "x": 609.9818399453231,
+      "y": 1015.8369076763763,
+      "width": 184.99328830373065,
+      "height": 119.25411683603194,
+      "scaleX": 0.135824734437394,
+      "scaleY": 0.135824734437394,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "lower:seedling",
+      "name": "下方麦田 · 幼苗与返青",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/seedling.png",
+      "frame": {
+        "x": 30,
+        "y": 71,
+        "width": 1486,
+        "height": 894
+      },
+      "x": 684.9965907319424,
+      "y": 1070.685737141237,
+      "width": 421.3318390812845,
+      "height": 253.4795855576503,
+      "scaleX": 0.2835342120331658,
+      "scaleY": 0.2835342120331658,
+      "rotation": 3.274544696764206,
+      "zIndex": 1070.685737141237,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "lower:overwinter",
+      "name": "下方麦田 · 越冬",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/overwinter.png",
+      "frame": {
+        "x": 15,
+        "y": 50,
+        "width": 1507,
+        "height": 928
+      },
+      "x": 693.3876217165229,
+      "y": 1065.2170034400638,
+      "width": 242.49149218989612,
+      "height": 149.32455524367856,
+      "scaleX": 0.1609100810815502,
+      "scaleY": 0.16091008108155017,
+      "rotation": 0,
+      "zIndex": 1065.2170034400638,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "lower:heading",
+      "name": "下方麦田 · 抽穗扬花",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 688.7234090363261,
+      "y": 1054.9760601764056,
+      "width": 198.6074932523809,
+      "height": 127.04222333741683,
+      "scaleX": 0.13869238355613192,
+      "scaleY": 0.13869238355613192,
+      "rotation": 0,
+      "zIndex": 1054.9760601764056,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "lower:growth",
+      "name": "下方麦田 · 正常灌浆（新图）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/growth.png",
+      "frame": {
+        "x": 346,
+        "y": 222,
+        "width": 1029,
+        "height": 607
+      },
+      "x": 678.4869002866,
+      "y": 1074.1378430364448,
+      "width": 421.3318390812845,
+      "height": 248.54074472530579,
+      "scaleX": 0.40945756956393053,
+      "scaleY": 0.4094575695639305,
+      "rotation": 5.486353184696805,
+      "zIndex": 1074.1378430364448,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "lower:mature",
+      "name": "下方麦田 · 成熟",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 686.830606923188,
+      "y": 1063.0470161872945,
+      "width": 208.6560333927813,
+      "height": 121.3181782310653,
+      "scaleX": 0.14041455813780707,
+      "scaleY": 0.14041455813780707,
+      "rotation": 0,
+      "zIndex": 1063.0470161872945,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "lower:stubble",
+      "name": "下方麦田 · 收割残茬",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/stubble.png",
+      "frame": {
+        "x": 43,
+        "y": 210,
+        "width": 1358,
+        "height": 667
+      },
+      "x": 685.8876393461073,
+      "y": 1087.4359690737597,
+      "width": 434.36272070235515,
+      "height": 213.34310361448522,
+      "scaleX": 0.3198547280576989,
+      "scaleY": 0.31985472805769893,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    {
+      "id": "lower:drought",
+      "name": "下方麦田 · 灌浆干旱",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/drought.png",
+      "frame": {
+        "x": 44,
+        "y": 31,
+        "width": 1455,
+        "height": 944
+      },
+      "x": 691.5554742112979,
+      "y": 1074.7908671458931,
+      "width": 228.8727343134658,
+      "height": 148.4920008191833,
+      "scaleX": 0.15730084832540606,
+      "scaleY": 0.15730084832540603,
+      "rotation": 0,
+      "zIndex": 1074.7908671458931,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "lower:lodged",
+      "name": "下方麦田 · 延误收获倒伏",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/lodged.png",
+      "frame": {
+        "x": 12,
+        "y": 14,
+        "width": 1511,
+        "height": 972
+      },
+      "x": 703.1866464993125,
+      "y": 1075.7260661448036,
+      "width": 263.3225710639217,
+      "height": 169.3908266539589,
+      "scaleX": 0.1742703977921388,
+      "scaleY": 0.1742703977921388,
+      "rotation": 0,
+      "zIndex": 1075.7260661448036,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y"
+    },
+    {
+      "id": "upper:sown-copy-0b57dc94-b075-4814-8f6b-b973484c2d03",
+      "name": "上方麦田 · 播种（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1362,
+        "height": 878
+      },
+      "x": 911.5190083643193,
+      "y": 896.220238570619,
+      "width": 136.5829252552767,
+      "height": 88.04684902652934,
+      "scaleX": 0.10028114923294912,
+      "scaleY": 0.10028114923294913,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "seasonalSourceId": "upper:sown"
+    },
+    {
+      "id": "upper:sown-copy-0b57dc94-b075-4814-8f6b-b973484c2d03-copy-38850962-af93-47a8-ac50-aa09f858fd9d",
+      "name": "上方麦田 · 播种（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1362,
+        "height": 878
+      },
+      "x": 930.750908064269,
+      "y": 796.3006006891289,
+      "width": 136.5829252552767,
+      "height": 88.04684902652934,
+      "scaleX": 0.10028114923294912,
+      "scaleY": 0.10028114923294913,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "seasonalSourceId": "upper:sown"
+    },
+    {
+      "id": "upper:sown-copy-0b57dc94-b075-4814-8f6b-b973484c2d03-copy-388509-copy-d83e6fc9-4457-473c-b2e9-3fb4275253ba",
+      "name": "上方麦田 · 播种（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1362,
+        "height": 878
+      },
+      "x": 978.7104734782541,
+      "y": 864.5619462452004,
+      "width": 136.5829252552767,
+      "height": 88.04684902652934,
+      "scaleX": 0.10028114923294912,
+      "scaleY": 0.10028114923294913,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "seasonalSourceId": "upper:sown"
+    },
+    {
+      "id": "lower:sown-copy-6024e0dc-5df0-42cb-81ce-9eaaa7551588",
+      "name": "下方麦田 · 播种（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1362,
+        "height": 878
+      },
+      "x": 696.7008015449857,
+      "y": 1067.5977664761792,
+      "width": 184.99328830373065,
+      "height": 119.25411683603194,
+      "scaleX": 0.135824734437394,
+      "scaleY": 0.135824734437394,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "seasonalSourceId": "lower:sown"
+    },
+    {
+      "id": "lower:sown-copy-6024e0dc-5df0-42cb-81ce-9eaaa7551588-copy-cd78b747-8db7-4d93-99fd-a3822ae96d3d",
+      "name": "下方麦田 · 播种（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1362,
+        "height": 878
+      },
+      "x": 798.6445987315185,
+      "y": 1010.3367891335756,
+      "width": 184.99328830373065,
+      "height": 119.25411683603194,
+      "scaleX": 0.135824734437394,
+      "scaleY": 0.135824734437394,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "seasonalSourceId": "lower:sown"
+    },
+    {
+      "id": "lower:sown-copy-6024e0dc-5df0-42cb-81ce-9eaaa7551588-copy-cd78b7-copy-2a0d6fa3-c6e7-4ab2-9a40-6ff2f568664b",
+      "name": "下方麦田 · 播种（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1362,
+        "height": 878
+      },
+      "x": 702.9950734960144,
+      "y": 971.4292430230037,
+      "width": 184.99328830373065,
+      "height": 119.25411683603194,
+      "scaleX": 0.135824734437394,
+      "scaleY": 0.135824734437394,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "seasonalSourceId": "lower:sown"
+    },
+    {
+      "id": "lower:mature-copy-f1d3d593-34d3-4018-bac8-df56bd661969",
+      "name": "下方麦田 · 成熟（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 784.9269872355303,
+      "y": 1004.6189384782531,
+      "width": 213.11813672765692,
+      "height": 123.9125640193106,
+      "scaleX": 0.1434173194667947,
+      "scaleY": 0.14341731946679467,
+      "rotation": -2.318932833633531,
+      "zIndex": 1004.6189384782531,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:mature"
+    },
+    {
+      "id": "lower:mature-copy-f1d3d593-34d3-4018-bac8-df56bd661969-copy-6305b553-80fb-4214-aff2-85d01a59cbc7",
+      "name": "下方麦田 · 成熟（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 574.4922671435835,
+      "y": 1002.9404482098496,
+      "width": 199.36868006001495,
+      "height": 115.91826350730344,
+      "scaleX": 0.13416465683715675,
+      "scaleY": 0.13416465683715675,
+      "rotation": 0,
+      "zIndex": 1002.9404482098496,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:mature"
+    },
+    {
+      "id": "lower:mature-copy-f1d3d593-34d3-4018-bac8-df56bd661969-copy-6305-copy-8df85eae-b256-4097-b4ed-01e6afdd3eee",
+      "name": "下方麦田 · 成熟（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 684.9784082290486,
+      "y": 966.8049294869696,
+      "width": 217.24386750627804,
+      "height": 126.311373839451,
+      "scaleX": 0.14619371972158685,
+      "scaleY": 0.1461937197215868,
+      "rotation": 0,
+      "zIndex": 966.8049294869696,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:mature"
+    },
+    {
+      "id": "upper:mature-copy-8b03794d-af98-4695-9ad8-a73c3d0174b1",
+      "name": "上方麦田 · 成熟（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 817.3101332629458,
+      "y": 854.2099595484392,
+      "width": 181.98680562575612,
+      "height": 105.81197850649613,
+      "scaleX": 0.12246756771585203,
+      "scaleY": 0.122467567715852,
+      "rotation": 0,
+      "zIndex": 854.2099595484392,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:mature"
+    },
+    {
+      "id": "upper:mature-copy-e0cf9423-4491-43a7-b28e-1d14b756cc5b",
+      "name": "上方麦田 · 成熟（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 1027.9110094517741,
+      "y": 834.3449231681325,
+      "width": 178.37436838537343,
+      "height": 103.71161122810406,
+      "scaleX": 0.1200365870695649,
+      "scaleY": 0.12003658706956488,
+      "rotation": -2.6495082010469853,
+      "zIndex": 834.3449231681325,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:mature"
+    },
+    {
+      "id": "upper:mature-copy-e0cf9423-4491-43a7-b28e-1d14b756cc5b-copy-23ba55ca-3d15-4425-9d4a-010e63cec60e",
+      "name": "上方麦田 · 成熟（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 920.2385421903232,
+      "y": 798.6469567097736,
+      "width": 183.6210624419083,
+      "height": 106.7621789702616,
+      "scaleX": 0.12356733677113613,
+      "scaleY": 0.12356733677113611,
+      "rotation": 0,
+      "zIndex": 798.6469567097736,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:mature"
+    },
+    {
+      "id": "lower:mature-copy-f1d3d593-34d3-4018-bac8-df56bd661969-copy-6305-copy-ffe758b5-c4c6-4d4f-a1be-01fc52659127",
+      "name": "下方麦田 · 成熟（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 684.2575771379026,
+      "y": 1003.2773927181655,
+      "width": 217.24386750627804,
+      "height": 126.311373839451,
+      "scaleX": 0.14619371972158685,
+      "scaleY": 0.1461937197215868,
+      "rotation": 0,
+      "zIndex": 1003.2773927181655,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:mature"
+    },
+    {
+      "id": "lower:heading-copy-43f098ed-cf14-4831-8cbb-940c041889cd",
+      "name": "下方麦田 · 抽穗扬花（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 578.5546080180923,
+      "y": 1000.1465806945771,
+      "width": 186.86709430352727,
+      "height": 119.53230333940711,
+      "scaleX": 0.13049378093821737,
+      "scaleY": 0.13049378093821737,
+      "rotation": 0,
+      "zIndex": 1000.1465806945771,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:heading"
+    },
+    {
+      "id": "lower:heading-copy-43f098ed-cf14-4831-8cbb-940c041889cd-copy-418e38e7-b2a6-4499-8334-5aee976d3386",
+      "name": "下方麦田 · 抽穗扬花（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 688.1391547219881,
+      "y": 951.274883617345,
+      "width": 199.37894641850212,
+      "height": 127.53569477608096,
+      "scaleX": 0.13923110783414952,
+      "scaleY": 0.13923110783414952,
+      "rotation": 0,
+      "zIndex": 951.274883617345,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:heading"
+    },
+    {
+      "id": "lower:heading-copy-43f098ed-cf14-4831-8cbb-940c041889cd-copy-418-copy-27d5eb8b-9edf-4e1e-88a4-6f6bb7803613",
+      "name": "下方麦田 · 抽穗扬花（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 793.422922950548,
+      "y": 989.330544779468,
+      "width": 186.22453406911484,
+      "height": 119.12128017270194,
+      "scaleX": 0.13004506569072266,
+      "scaleY": 0.13004506569072263,
+      "rotation": 0,
+      "zIndex": 989.330544779468,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:heading"
+    },
+    {
+      "id": "lower:heading-copy-43f098ed-cf14-4831-8cbb-940c041889cd-copy-804a80e2-4665-453a-a653-2958daa7780d",
+      "name": "下方麦田 · 抽穗扬花（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 635.4731918617726,
+      "y": 1024.6744578517923,
+      "width": 186.86709430352727,
+      "height": 119.53230333940711,
+      "scaleX": 0.13049378093821737,
+      "scaleY": 0.13049378093821737,
+      "rotation": 0,
+      "zIndex": 1024.6744578517923,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:heading"
+    },
+    {
+      "id": "lower:heading-copy-43f098ed-cf14-4831-8cbb-940c041889cd-copy-418-copy-130c3fbf-e0fe-4dbb-9a12-3fa705948839",
+      "name": "下方麦田 · 抽穗扬花（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 744.2366516552564,
+      "y": 1016.4978560520941,
+      "width": 186.22453406911484,
+      "height": 119.12128017270194,
+      "scaleX": 0.13004506569072266,
+      "scaleY": 0.13004506569072263,
+      "rotation": 0,
+      "zIndex": 1016.4978560520941,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:heading"
+    },
+    {
+      "id": "lower:heading-copy-43f098ed-cf14-4831-8cbb-940c041889cd-copy-418-copy-bbfc0b0a-6453-4dac-8ef0-647f634e2fae",
+      "name": "下方麦田 · 抽穗扬花（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 691.023730128036,
+      "y": 991.6393171376907,
+      "width": 199.37894641850212,
+      "height": 127.53569477608096,
+      "scaleX": 0.13923110783414952,
+      "scaleY": 0.13923110783414952,
+      "rotation": 0,
+      "zIndex": 991.6393171376907,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:heading"
+    },
+    {
+      "id": "lower:heading-copy-43f098ed-cf14-4831-8cbb-940c041889cd-copy-418-copy-4ebe3e4f-74a2-4d69-a293-cf5411b0f292",
+      "name": "下方麦田 · 抽穗扬花（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 627.5845097765925,
+      "y": 986.0777372049581,
+      "width": 199.37894641850212,
+      "height": 127.53569477608096,
+      "scaleX": 0.13923110783414952,
+      "scaleY": 0.13923110783414952,
+      "rotation": 0,
+      "zIndex": 986.0777372049581,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:heading"
+    },
+    {
+      "id": "lower:heading-copy-43f098ed-cf14-4831-8cbb-940c041889cd-copy-418-copy-68894ee2-0bab-4e4d-b91d-3099b6b62c78",
+      "name": "下方麦田 · 抽穗扬花（副本8）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 717.7598378181796,
+      "y": 980.5161572722255,
+      "width": 199.37894641850212,
+      "height": 127.53569477608096,
+      "scaleX": 0.13923110783414952,
+      "scaleY": 0.13923110783414952,
+      "rotation": 0,
+      "zIndex": 980.5161572722255,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:heading"
+    },
+    {
+      "id": "upper:heading-copy-9c4220ae-3c3a-4264-bddb-5cd60f515e69",
+      "name": "上方麦田 · 抽穗扬花（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 807.5007307983506,
+      "y": 847.1998904793626,
+      "width": 159.53678494457415,
+      "height": 102.05006634722761,
+      "scaleX": 0.11140836937470262,
+      "scaleY": 0.11140836937470264,
+      "rotation": 0,
+      "zIndex": 847.1998904793626,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:heading"
+    },
+    {
+      "id": "upper:heading-copy-9c4220ae-3c3a-4264-bddb-5cd60f515e69-copy-a0c597b0-312a-4f66-b36c-3afa03f7aa84",
+      "name": "上方麦田 · 抽穗扬花（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 917.9513067460332,
+      "y": 795.1844199363366,
+      "width": 180.02761047724368,
+      "height": 115.15732625499666,
+      "scaleX": 0.12571760508187407,
+      "scaleY": 0.12571760508187407,
+      "rotation": 0,
+      "zIndex": 795.1844199363366,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:heading"
+    },
+    {
+      "id": "upper:heading-copy-9c4220ae-3c3a-4264-bddb-5cd60f515e69-copy-a0c-copy-30795b1f-f218-496b-9bc9-44893905e950",
+      "name": "上方麦田 · 抽穗扬花（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 1031.6847977347156,
+      "y": 832.3815663487234,
+      "width": 166.5852502802178,
+      "height": 106.55872154796056,
+      "scaleX": 0.11633048203925823,
+      "scaleY": 0.11633048203925825,
+      "rotation": 0,
+      "zIndex": 832.3815663487234,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:heading"
+    },
+    {
+      "id": "upper:heading-copy-9c4220ae-3c3a-4264-bddb-5cd60f515e69-copy-a0c-copy-1cd91aaf-2ff9-44b6-a5b7-784a8a2e1696",
+      "name": "上方麦田 · 抽穗扬花（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 865.8358623448067,
+      "y": 869.5786885964429,
+      "width": 166.5852502802178,
+      "height": 106.55872154796056,
+      "scaleX": 0.11633048203925823,
+      "scaleY": 0.11633048203925825,
+      "rotation": 0,
+      "zIndex": 869.5786885964429,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:heading"
+    },
+    {
+      "id": "upper:heading-copy-d43ae081-f32d-45f3-849e-6681ccb23ddc",
+      "name": "上方麦田 · 抽穗扬花（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 976.0394214169457,
+      "y": 866.7317077663363,
+      "width": 185.8380828704262,
+      "height": 118.87408094225589,
+      "scaleX": 0.12977519753521383,
+      "scaleY": 0.12977519753521385,
+      "rotation": 0,
+      "zIndex": 866.7317077663363,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:heading"
+    },
+    {
+      "id": "upper:heading-copy-d43ae081-f32d-45f3-849e-6681ccb23ddc-copy-d1497da4-e168-4073-b72e-c066f0e8284c",
+      "name": "上方麦田 · 抽穗扬花（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 857.7001067870935,
+      "y": 829.4970151073428,
+      "width": 185.8380828704262,
+      "height": 118.87408094225589,
+      "scaleX": 0.12977519753521383,
+      "scaleY": 0.12977519753521385,
+      "rotation": 0,
+      "zIndex": 829.4970151073428,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:heading"
+    },
+    {
+      "id": "upper:heading-copy-d43ae081-f32d-45f3-849e-6681ccb23ddc-copy-d14-copy-40208efb-8f53-4ff5-b913-9eb14d9f9f85",
+      "name": "上方麦田 · 抽穗扬花（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 957.9052699684414,
+      "y": 817.6008126293581,
+      "width": 185.8380828704262,
+      "height": 118.87408094225589,
+      "scaleX": 0.12977519753521383,
+      "scaleY": 0.12977519753521385,
+      "rotation": 0,
+      "zIndex": 817.6008126293581,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:heading"
+    },
+    {
+      "id": "upper:heading-copy-d43ae081-f32d-45f3-849e-6681ccb23ddc-copy-d14-copy-c253b3a1-d94f-4452-899a-23952b18a6ce",
+      "name": "上方麦田 · 抽穗扬花（副本8）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/heading.png",
+      "frame": {
+        "x": 49,
+        "y": 38,
+        "width": 1432,
+        "height": 916
+      },
+      "x": 946.1987842934458,
+      "y": 843.1844682656711,
+      "width": 185.8380828704262,
+      "height": 118.87408094225589,
+      "scaleX": 0.12977519753521383,
+      "scaleY": 0.12977519753521385,
+      "rotation": 0,
+      "zIndex": 843.1844682656711,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:heading"
+    },
+    {
+      "id": "upper:sown-copy-0b57dc94-b075-4814-8f6b-b973484c2d03-copy-388509-copy-35e1abf3-913e-48db-a571-9f7798fd0cf8",
+      "name": "上方麦田 · 播种（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1362,
+        "height": 878
+      },
+      "x": 1028.967634440175,
+      "y": 829.6241507692467,
+      "width": 136.5829252552767,
+      "height": 88.04684902652934,
+      "scaleX": 0.10028114923294912,
+      "scaleY": 0.10028114923294913,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "seasonalSourceId": "upper:sown"
+    },
+    {
+      "id": "upper:sown-copy-0b57dc94-b075-4814-8f6b-b973484c2d03-copy-388509-copy-052d882b-937a-4fe8-848b-c31f5e4b8db9",
+      "name": "上方麦田 · 播种（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/sown.png",
+      "frame": {
+        "x": 96,
+        "y": 80,
+        "width": 1362,
+        "height": 878
+      },
+      "x": 893.8677142722977,
+      "y": 841.6655494413803,
+      "width": 136.5829252552767,
+      "height": 88.04684902652934,
+      "scaleX": 0.10028114923294912,
+      "scaleY": 0.10028114923294913,
+      "rotation": 0,
+      "zIndex": -399,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed",
+      "clip": [
+        [
+          0.5,
+          0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          0.5,
+          1
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "seasonalSourceId": "upper:sown"
+    },
+    {
+      "id": "lower:overwinter-copy-f7760926-8e8a-401d-be89-693434f57ef9",
+      "name": "下方麦田 · 越冬（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/overwinter.png",
+      "frame": {
+        "x": 15,
+        "y": 50,
+        "width": 1507,
+        "height": 928
+      },
+      "x": 615.0009097647143,
+      "y": 1023.9418371057673,
+      "width": 242.49149218989612,
+      "height": 149.32455524367856,
+      "scaleX": 0.1609100810815502,
+      "scaleY": 0.16091008108155017,
+      "rotation": 0,
+      "zIndex": 1023.9418371057673,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:overwinter"
+    },
+    {
+      "id": "lower:overwinter-copy-f7760926-8e8a-401d-be89-693434f57ef9-copy-62ee19a2-aca6-40d4-8125-82cda95e368c",
+      "name": "下方麦田 · 越冬（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/overwinter.png",
+      "frame": {
+        "x": 15,
+        "y": 50,
+        "width": 1507,
+        "height": 928
+      },
+      "x": 697.6261685287043,
+      "y": 978.3149797355844,
+      "width": 242.49149218989612,
+      "height": 149.32455524367856,
+      "scaleX": 0.1609100810815502,
+      "scaleY": 0.16091008108155017,
+      "rotation": 0,
+      "zIndex": 978.3149797355844,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:overwinter"
+    },
+    {
+      "id": "lower:overwinter-copy-f7760926-8e8a-401d-be89-693434f57ef9-copy--copy-108ce11a-fb73-4ce3-8b75-de50cdd79461",
+      "name": "下方麦田 · 越冬（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/overwinter.png",
+      "frame": {
+        "x": 15,
+        "y": 50,
+        "width": 1507,
+        "height": 928
+      },
+      "x": 784.6032378509799,
+      "y": 1012.7590063490719,
+      "width": 242.49149218989612,
+      "height": 149.32455524367856,
+      "scaleX": 0.1609100810815502,
+      "scaleY": 0.16091008108155017,
+      "rotation": 0,
+      "zIndex": 1012.7590063490719,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:overwinter"
+    },
+    {
+      "id": "upper:overwinter-copy-96965248-b534-4b3a-ad8a-da4e1daadc91",
+      "name": "上方麦田 · 越冬（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/overwinter.png",
+      "frame": {
+        "x": 15,
+        "y": 50,
+        "width": 1507,
+        "height": 928
+      },
+      "x": 849.3626546676788,
+      "y": 873.5764347592403,
+      "width": 240.2675921810743,
+      "height": 147.9550932608075,
+      "scaleX": 0.15943436773793915,
+      "scaleY": 0.15943436773793912,
+      "rotation": 0,
+      "zIndex": 873.5764347592403,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:overwinter"
+    },
+    {
+      "id": "upper:overwinter-copy-96965248-b534-4b3a-ad8a-da4e1daadc91-copy-41a4b7d2-7edd-40cd-98af-4ad394d72aa8",
+      "name": "上方麦田 · 越冬（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/overwinter.png",
+      "frame": {
+        "x": 15,
+        "y": 50,
+        "width": 1507,
+        "height": 928
+      },
+      "x": 921.5438868181814,
+      "y": 826.2089328473428,
+      "width": 240.2675921810743,
+      "height": 147.9550932608075,
+      "scaleX": 0.15943436773793915,
+      "scaleY": 0.15943436773793912,
+      "rotation": 0,
+      "zIndex": 826.2089328473428,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:overwinter"
+    },
+    {
+      "id": "upper:overwinter-copy-96965248-b534-4b3a-ad8a-da4e1daadc91-copy--copy-304579dd-735a-4e77-bedb-daa688beb673",
+      "name": "上方麦田 · 越冬（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/overwinter.png",
+      "frame": {
+        "x": 15,
+        "y": 50,
+        "width": 1507,
+        "height": 928
+      },
+      "x": 996.3361256220558,
+      "y": 854.5606238832293,
+      "width": 240.2675921810743,
+      "height": 147.9550932608075,
+      "scaleX": 0.15943436773793915,
+      "scaleY": 0.15943436773793912,
+      "rotation": 0,
+      "zIndex": 854.5606238832293,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:overwinter"
+    },
+    {
+      "id": "lower:mature-copy-f1d3d593-34d3-4018-bac8-df56bd661969-copy-b1ada147-0d95-418e-a22f-89a8ba805830",
+      "name": "下方麦田 · 成熟（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 750.2538954326707,
+      "y": 1027.1455483936818,
+      "width": 213.11813672765692,
+      "height": 123.9125640193106,
+      "scaleX": 0.1434173194667947,
+      "scaleY": 0.14341731946679467,
+      "rotation": -2.318932833633531,
+      "zIndex": 1027.1455483936818,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:mature"
+    },
+    {
+      "id": "lower:mature-copy-f1d3d593-34d3-4018-bac8-df56bd661969-copy-6305-copy-63310e9a-bd7a-4221-aa97-98625f2aa68a",
+      "name": "下方麦田 · 成熟（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 616.4384274952458,
+      "y": 1022.5201430580987,
+      "width": 199.36868006001495,
+      "height": 115.91826350730344,
+      "scaleX": 0.13416465683715675,
+      "scaleY": 0.13416465683715675,
+      "rotation": 0,
+      "zIndex": 1022.5201430580987,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:mature"
+    },
+    {
+      "id": "upper:mature-copy-e0cf9423-4491-43a7-b28e-1d14b756cc5b-copy-21bb50e7-6ee1-4216-8fc6-affc8a2d433b",
+      "name": "上方麦田 · 成熟（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 989.3733850569643,
+      "y": 867.699263454734,
+      "width": 178.37436838537343,
+      "height": 103.71161122810406,
+      "scaleX": 0.1200365870695649,
+      "scaleY": 0.12003658706956488,
+      "rotation": -5.6604907740627075,
+      "zIndex": 867.699263454734,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:mature"
+    },
+    {
+      "id": "upper:mature-copy-8b03794d-af98-4695-9ad8-a73c3d0174b1-copy-e00cd1c9-35a2-4108-9785-9447337a4d39",
+      "name": "上方麦田 · 成熟（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 850.9799260443824,
+      "y": 871.3501290363854,
+      "width": 170.14521883704893,
+      "height": 98.92696438439452,
+      "scaleX": 0.114498801370827,
+      "scaleY": 0.11449880137082699,
+      "rotation": 0,
+      "zIndex": 871.3501290363854,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:mature"
+    },
+    {
+      "id": "upper:mature-copy-e0cf9423-4491-43a7-b28e-1d14b756cc5b-copy-23ba-copy-4b32d130-2480-4846-8e45-f93bb3217427",
+      "name": "上方麦田 · 成熟（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 890.2074638992794,
+      "y": 827.6359334380976,
+      "width": 183.6210624419083,
+      "height": 106.7621789702616,
+      "scaleX": 0.12356733677113613,
+      "scaleY": 0.12356733677113611,
+      "rotation": 0,
+      "zIndex": 827.6359334380976,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:mature"
+    },
+    {
+      "id": "upper:mature-copy-e0cf9423-4491-43a7-b28e-1d14b756cc5b-copy-23ba-copy-a205e167-8d4c-4721-adc6-58ac2be80aae",
+      "name": "上方麦田 · 成熟（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 963.0741287608538,
+      "y": 815.4658129053744,
+      "width": 183.6210624419083,
+      "height": 106.7621789702616,
+      "scaleX": 0.12356733677113613,
+      "scaleY": 0.12356733677113611,
+      "rotation": 0,
+      "zIndex": 815.4658129053744,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:mature"
+    },
+    {
+      "id": "upper:mature-copy-e0cf9423-4491-43a7-b28e-1d14b756cc5b-copy-23ba-copy-b3e943b5-9e49-492e-b204-2bbc5a898c59",
+      "name": "上方麦田 · 成熟（副本8）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/mature.png",
+      "frame": {
+        "x": 25,
+        "y": 62,
+        "width": 1486,
+        "height": 864
+      },
+      "x": 938.2074638992794,
+      "y": 875.6359334380976,
+      "width": 183.6210624419083,
+      "height": 106.7621789702616,
+      "scaleX": 0.12356733677113613,
+      "scaleY": 0.12356733677113611,
+      "rotation": 0,
+      "zIndex": 875.6359334380976,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:mature"
+    },
+    {
+      "id": "lower:drought-copy-904e0414-c1af-46fd-9d82-fe16a91743fc",
+      "name": "下方麦田 · 灌浆干旱（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/drought.png",
+      "frame": {
+        "x": 44,
+        "y": 31,
+        "width": 1455,
+        "height": 944
+      },
+      "x": 593.3595343853397,
+      "y": 1024.8122390582243,
+      "width": 211.39381099434615,
+      "height": 137.15172342176135,
+      "scaleX": 0.14528784260779803,
+      "scaleY": 0.14528784260779803,
+      "rotation": 0,
+      "zIndex": 1024.8122390582243,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:drought"
+    },
+    {
+      "id": "lower:drought-copy-904e0414-c1af-46fd-9d82-fe16a91743fc-copy-b1dffde0-c0de-4862-9d09-18b23f75cb10",
+      "name": "下方麦田 · 灌浆干旱（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/drought.png",
+      "frame": {
+        "x": 44,
+        "y": 31,
+        "width": 1455,
+        "height": 944
+      },
+      "x": 678.422970214351,
+      "y": 976.1290827862688,
+      "width": 228.80193581084768,
+      "height": 148.44606694531973,
+      "scaleX": 0.15725218956072007,
+      "scaleY": 0.15725218956072004,
+      "rotation": 0,
+      "zIndex": 976.1290827862688,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:drought"
+    },
+    {
+      "id": "lower:drought-copy-904e0414-c1af-46fd-9d82-fe16a91743fc-copy-b1d-copy-dec6d354-71c5-4f63-8121-95bfee63f7a5",
+      "name": "下方麦田 · 灌浆干旱（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/drought.png",
+      "frame": {
+        "x": 44,
+        "y": 31,
+        "width": 1455,
+        "height": 944
+      },
+      "x": 783.8111867020765,
+      "y": 1017.5768787705786,
+      "width": 231.30446136991407,
+      "height": 150.06969864824666,
+      "scaleX": 0.15897213839856636,
+      "scaleY": 0.1589721383985664,
+      "rotation": 0,
+      "zIndex": 1017.5768787705786,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:drought"
+    },
+    {
+      "id": "upper:drought-copy-38bf3678-84d5-4e4f-8f2d-abb1c0cb39aa",
+      "name": "上方麦田 · 灌浆干旱（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/drought.png",
+      "frame": {
+        "x": 44,
+        "y": 31,
+        "width": 1455,
+        "height": 944
+      },
+      "x": 854.9168271178978,
+      "y": 870.2639693996097,
+      "width": 238.32160279977427,
+      "height": 154.6224007168295,
+      "scaleX": 0.16379491601359056,
+      "scaleY": 0.16379491601359059,
+      "rotation": 0,
+      "zIndex": 870.2639693996097,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:drought"
+    },
+    {
+      "id": "upper:drought-copy-38bf3678-84d5-4e4f-8f2d-abb1c0cb39aa-copy-52793062-bf3a-4502-99b6-03d69956d8e7",
+      "name": "上方麦田 · 灌浆干旱（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/drought.png",
+      "frame": {
+        "x": 44,
+        "y": 31,
+        "width": 1455,
+        "height": 944
+      },
+      "x": 994.8471883763334,
+      "y": 861.1114278276583,
+      "width": 238.32160279977427,
+      "height": 154.6224007168295,
+      "scaleX": 0.16379491601359056,
+      "scaleY": 0.16379491601359059,
+      "rotation": 0,
+      "zIndex": 861.1114278276583,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:drought"
+    },
+    {
+      "id": "upper:drought-copy-38bf3678-84d5-4e4f-8f2d-abb1c0cb39aa-copy-527-copy-3dd711ba-73a3-407e-8b18-24c326ec112b",
+      "name": "上方麦田 · 灌浆干旱（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/drought.png",
+      "frame": {
+        "x": 44,
+        "y": 31,
+        "width": 1455,
+        "height": 944
+      },
+      "x": 909.3401994964818,
+      "y": 831.330649407996,
+      "width": 238.32160279977427,
+      "height": 154.6224007168295,
+      "scaleX": 0.16379491601359056,
+      "scaleY": 0.16379491601359059,
+      "rotation": 0,
+      "zIndex": 831.330649407996,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:drought"
+    },
+    {
+      "id": "lower:lodged-copy-238273c0-a920-424a-ad84-4bbce1e60814",
+      "name": "下方麦田 · 延误收获倒伏（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/lodged.png",
+      "frame": {
+        "x": 12,
+        "y": 14,
+        "width": 1511,
+        "height": 972
+      },
+      "x": 620.6265726866405,
+      "y": 1026.0537290574612,
+      "width": 263.3225710639217,
+      "height": 169.3908266539589,
+      "scaleX": 0.1742703977921388,
+      "scaleY": 0.1742703977921388,
+      "rotation": 0,
+      "zIndex": 1026.0537290574612,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:lodged"
+    },
+    {
+      "id": "lower:lodged-copy-238273c0-a920-424a-ad84-4bbce1e60814-copy-141d6067-570b-43ed-8333-388bdc4011e8",
+      "name": "下方麦田 · 延误收获倒伏（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/lodged.png",
+      "frame": {
+        "x": 12,
+        "y": 14,
+        "width": 1511,
+        "height": 972
+      },
+      "x": 674.3603258580029,
+      "y": 997.0096962668483,
+      "width": 263.3225710639217,
+      "height": 169.3908266539589,
+      "scaleX": 0.1742703977921388,
+      "scaleY": 0.1742703977921388,
+      "rotation": 0,
+      "zIndex": 997.0096962668483,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:lodged"
+    },
+    {
+      "id": "lower:lodged-copy-238273c0-a920-424a-ad84-4bbce1e60814-copy-141d-copy-c5f766b6-027d-4827-b911-de3630feaea4",
+      "name": "下方麦田 · 延误收获倒伏（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/lodged.png",
+      "frame": {
+        "x": 12,
+        "y": 14,
+        "width": 1511,
+        "height": 972
+      },
+      "x": 767.1404507356756,
+      "y": 1023.2198657049784,
+      "width": 263.3225710639217,
+      "height": 169.3908266539589,
+      "scaleX": 0.1742703977921388,
+      "scaleY": 0.1742703977921388,
+      "rotation": 0,
+      "zIndex": 1023.2198657049784,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "lower:lodged"
+    },
+    {
+      "id": "upper:lodged-copy-ef253670-9f01-461f-beab-7af15909d098",
+      "name": "上方麦田 · 延误收获倒伏（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/lodged.png",
+      "frame": {
+        "x": 12,
+        "y": 14,
+        "width": 1511,
+        "height": 972
+      },
+      "x": 840.0772636458661,
+      "y": 872.9532320429072,
+      "width": 233.19809137387153,
+      "height": 150.01227320675255,
+      "scaleX": 0.15433361441023927,
+      "scaleY": 0.15433361441023924,
+      "rotation": 0,
+      "zIndex": 872.9532320429072,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:lodged"
+    },
+    {
+      "id": "upper:lodged-copy-ef253670-9f01-461f-beab-7af15909d098-copy-9eacb3eb-aa60-4230-9e5a-c66a73361b4c",
+      "name": "上方麦田 · 延误收获倒伏（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/lodged.png",
+      "frame": {
+        "x": 12,
+        "y": 14,
+        "width": 1511,
+        "height": 972
+      },
+      "x": 920.4274007367217,
+      "y": 835.8381993213827,
+      "width": 233.19809137387153,
+      "height": 150.01227320675255,
+      "scaleX": 0.15433361441023927,
+      "scaleY": 0.15433361441023924,
+      "rotation": 0,
+      "zIndex": 835.8381993213827,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:lodged"
+    },
+    {
+      "id": "upper:lodged-copy-ef253670-9f01-461f-beab-7af15909d098-copy-f3b1f00a-1f92-4d99-93c9-acd1266055bc",
+      "name": "上方麦田 · 延误收获倒伏（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/wheat/lodged.png",
+      "frame": {
+        "x": 12,
+        "y": 14,
+        "width": 1511,
+        "height": 972
+      },
+      "x": 1002.1220677303129,
+      "y": 857.0413896691339,
+      "width": 233.19809137387153,
+      "height": 150.01227320675255,
+      "scaleX": 0.15433361441023927,
+      "scaleY": 0.15433361441023924,
+      "rotation": 0,
+      "zIndex": 857.0413896691339,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "y",
+      "seasonalSourceId": "upper:lodged"
+    }
+  ],
+  "farmBindings": {
+    "upper": {
+      "id": "upper-field",
+      "name": "上方未翻耕地",
+      "category": "农田与农作物",
+      "resource": "./assets/landscape/unploughed.png",
+      "frame": {
+        "x": 45,
+        "y": 95,
+        "width": 1450,
+        "height": 875
+      },
+      "x": 920.6605532387952,
+      "y": 938.1033020765739,
+      "width": 451.49200850326747,
+      "height": 272.4520740967993,
+      "scaleX": 0.3113737989677707,
+      "scaleY": 0.3113737989677707,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    },
+    "lower": {
+      "id": "lower-field",
+      "name": "下方未翻耕地",
+      "category": "农田与农作物",
+      "resource": "./assets/landscape/unploughed.png",
+      "frame": {
+        "x": 45,
+        "y": 95,
+        "width": 1450,
+        "height": 875
+      },
+      "x": 686.8340862345166,
+      "y": 1087.4359690737597,
+      "width": 436.25561447917386,
+      "height": 263.2576983926049,
+      "scaleX": 0.3008659410201199,
+      "scaleY": 0.3008659410201199,
+      "rotation": 0,
+      "zIndex": -400,
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "depthMode": "fixed"
+    }
+  }
+}

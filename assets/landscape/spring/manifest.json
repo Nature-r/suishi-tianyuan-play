@@ -1,0 +1,162 @@
+[
+  {
+    "source": "春季场景/春季仓库.png",
+    "name": "春季仓库.png",
+    "bytes": 1920536,
+    "sha256": "be16aa0238f4565bb4b939577ac4fce6430d637e9db0f238c9053fbb0219b392",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/shed.png"
+  },
+  {
+    "source": "春季场景/春季大树.png",
+    "name": "春季大树.png",
+    "bytes": 1601304,
+    "sha256": "48b7c1572b5ad96d7ac8fc7177894884ef9afabb909db5c2b2544ab96f66059f",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/tree.png"
+  },
+  {
+    "source": "春季场景/春季天空.png",
+    "name": "春季天空.png",
+    "bytes": 1265638,
+    "sha256": "62d82c9c790a2ba8ad21fe06aa724d3d667c97bec988fe7f9f422007f26407f5",
+    "width": 1448,
+    "height": 1086,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/sky.png"
+  },
+  {
+    "source": "春季场景/春季房子.png",
+    "name": "春季房子.png",
+    "bytes": 1953763,
+    "sha256": "c4c8874aaf1b9a3c1625c818ff38b4bc905cc5d7b1ab7311e2ca736ca9976c42",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/house.png"
+  },
+  {
+    "source": "春季场景/春季树林.png",
+    "name": "春季树林.png",
+    "bytes": 2104857,
+    "sha256": "c4dd20ca89e665240152a926fa8cd0dc47f66abba728be87bba49b0ce0f10769",
+    "width": 2172,
+    "height": 724,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/far-bank.png"
+  },
+  {
+    "source": "春季场景/春季水车.png",
+    "name": "春季水车.png",
+    "bytes": 2237054,
+    "sha256": "f8747aeadc3d02179b9e1ae66c49e47a81ff5d90de4f771186ca5ae4614ccfc5",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/watermill.png"
+  },
+  {
+    "source": "春季场景/春季河水i.png",
+    "name": "春季河水i.png",
+    "bytes": 1136800,
+    "sha256": "bdcdf9ff9ff9e5065da7df349e1fedf9bf4571249f74868e56f2fe4a6ddbb795",
+    "width": 2172,
+    "height": 724,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/river.png"
+  },
+  {
+    "source": "春季场景/春季石台.png",
+    "name": "春季石台.png",
+    "bytes": 956433,
+    "sha256": "5b4fad2e098b3b5a06838f6bb3c853bc8f785a5a7f5d735519d0a68ff73ad955",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/platform.png"
+  },
+  {
+    "source": "春季场景/春季石头1.png",
+    "name": "春季石头1.png",
+    "bytes": 672154,
+    "sha256": "f81cb6081f7b5aad2d45ebdfc853178b6cd4544424570e1e520c24d7d25dc4a0",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/rock-01.png"
+  },
+  {
+    "source": "春季场景/春季石头2.png",
+    "name": "春季石头2.png",
+    "bytes": 622595,
+    "sha256": "743ba64e1348a4450d04e4502023eed0874b0fc37de59cee9d69c0fd9c3c1459",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/rock-02.png"
+  },
+  {
+    "source": "春季场景/春季草丛遮挡.png",
+    "name": "春季草丛遮挡.png",
+    "bytes": 543582,
+    "sha256": "09360fdc33af869ebdb09555786bb208d85de0168e7e64e6ce010fb2b687cd5e",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/occluder-bush.png"
+  },
+  {
+    "source": "春季场景/春季草地.png",
+    "name": "春季草地.png",
+    "bytes": 1892868,
+    "sha256": "da423a906d30358df96370ec9ae5988eb7b86dfff9899397e50d8861bbdc5d9f",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/ground.png"
+  },
+  {
+    "source": "春季场景/春季草地1.png",
+    "name": "春季草地1.png",
+    "bytes": 702532,
+    "sha256": "0ad0799abe75eeee5310b2bbde8c6e837084254545b0684ed18cb2c50eefc022",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/grass-patch-01.png"
+  },
+  {
+    "source": "春季场景/春季草地2.png",
+    "name": "春季草地2.png",
+    "bytes": 570771,
+    "sha256": "c346ad64d45bb85cdd742fe01156669b53c0a83f72944888d30df540475aa41f",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/grass-patch-02.png"
+  },
+  {
+    "source": "春季场景/春季草地遮挡.png",
+    "name": "春季草地遮挡.png",
+    "bytes": 645086,
+    "sha256": "c41991a24693e91e7f2d032dc2a535c543bb9761c75172d25e94fd5d46941568",
+    "width": 1254,
+    "height": 1254,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/occluder-ground.png"
+  },
+  {
+    "source": "春季场景/春季远山.png",
+    "name": "春季远山.png",
+    "bytes": 697182,
+    "sha256": "e33ae52bc2b6f08333103ba80dfc82ac3223a45657f85bf3c909a1e57121bf9b",
+    "width": 2172,
+    "height": 724,
+    "colorType": 6,
+    "resource": "./assets/landscape/spring/mountains.png"
+  }
+]
