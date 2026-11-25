@@ -1,0 +1,133 @@
+{
+  "entryFrame": 0,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 560,
+      "height": 416,
+      "anchorX": 190,
+      "anchorY": 404,
+      "grounded": true,
+      "renderScale": 1.19,
+      "bounds": {
+        "x": 82,
+        "y": 101,
+        "width": 361,
+        "height": 304
+      }
+    },
+    {
+      "x": 560,
+      "y": 0,
+      "width": 560,
+      "height": 416,
+      "anchorX": 190,
+      "anchorY": 404,
+      "grounded": true,
+      "renderScale": 1.19,
+      "bounds": {
+        "x": 91,
+        "y": 67,
+        "width": 324,
+        "height": 338
+      }
+    },
+    {
+      "x": 1120,
+      "y": 0,
+      "width": 560,
+      "height": 416,
+      "anchorX": 190,
+      "anchorY": 404,
+      "grounded": true,
+      "renderScale": 1.19,
+      "bounds": {
+        "x": 95,
+        "y": 9,
+        "width": 314,
+        "height": 396
+      }
+    },
+    {
+      "x": 1680,
+      "y": 0,
+      "width": 560,
+      "height": 416,
+      "anchorX": 190,
+      "anchorY": 404,
+      "grounded": true,
+      "renderScale": 1.19,
+      "bounds": {
+        "x": 17,
+        "y": 27,
+        "width": 268,
+        "height": 378
+      }
+    },
+    {
+      "x": 0,
+      "y": 416,
+      "width": 560,
+      "height": 416,
+      "anchorX": 190,
+      "anchorY": 404,
+      "grounded": true,
+      "renderScale": 1.19,
+      "bounds": {
+        "x": 83,
+        "y": 10,
+        "width": 239,
+        "height": 395
+      }
+    },
+    {
+      "x": 560,
+      "y": 416,
+      "width": 560,
+      "height": 416,
+      "anchorX": 190,
+      "anchorY": 404,
+      "grounded": true,
+      "renderScale": 1.19,
+      "bounds": {
+        "x": 94,
+        "y": 51,
+        "width": 427,
+        "height": 354
+      }
+    },
+    {
+      "x": 1120,
+      "y": 416,
+      "width": 560,
+      "height": 416,
+      "anchorX": 190,
+      "anchorY": 404,
+      "grounded": true,
+      "renderScale": 1.19,
+      "bounds": {
+        "x": 93,
+        "y": 131,
+        "width": 459,
+        "height": 274
+      }
+    },
+    {
+      "x": 1680,
+      "y": 416,
+      "width": 560,
+      "height": 416,
+      "anchorX": 190,
+      "anchorY": 404,
+      "grounded": true,
+      "renderScale": 1.19,
+      "bounds": {
+        "x": 88,
+        "y": 139,
+        "width": 422,
+        "height": 266
+      }
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "down": {
+    "IDLE": {
+      "entryFrame": 0,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 23,
+            "y": 14,
+            "width": 146,
+            "height": 226
+          }
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 21,
+            "y": 14,
+            "width": 151,
+            "height": 226
+          }
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 23,
+            "y": 14,
+            "width": 146,
+            "height": 225
+          }
+        },
+        {
+          "x": 576,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 20,
+            "y": 14,
+            "width": 150,
+            "height": 226
+          }
+        }
+      ]
+    },
+    "WALK": {
+      "entryFrame": 1,
+      "frames": [
+        {
+          "x": 0,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 22,
+            "y": 11,
+            "width": 148,
+            "height": 234
+          }
+        },
+        {
+          "x": 192,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 22,
+            "y": 12,
+            "width": 149,
+            "height": 230
+          }
+        },
+        {
+          "x": 384,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 25,
+            "y": 12,
+            "width": 142,
+            "height": 228
+          }
+        },
+        {
+          "x": 576,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 22,
+            "y": 12,
+            "width": 148,
+            "height": 230
+          }
+        }
+      ]
+    },
+    "RUN": {
+      "entryFrame": 0,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 72,
+            "y": 237
+          },
+          "bounds": {
+            "x": 16,
+            "y": 8,
+            "width": 155,
+            "height": 232
+          }
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 80,
+            "y": 237
+          },
+          "bounds": {
+            "x": 21,
+            "y": 7,
+            "width": 150,
+            "height": 233
+          }
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 78,
+            "y": 237
+          },
+          "bounds": {
+            "x": 18,
+            "y": 8,
+            "width": 152,
+            "height": 232
+          }
+        },
+        {
+          "x": 0,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 112,
+            "y": 237
+          },
+          "bounds": {
+            "x": 21,
+            "y": 8,
+            "width": 149,
+            "height": 232
+          }
+        },
+        {
+          "x": 192,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 110,
+            "y": 237
+          },
+          "bounds": {
+            "x": 21,
+            "y": 6,
+            "width": 149,
+            "height": 234
+          }
+        },
+        {
+          "x": 384,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 109,
+            "y": 237
+          },
+          "bounds": {
+            "x": 22,
+            "y": 8,
+            "width": 148,
+            "height": 232
+          }
+        }
+      ]
+    }
+  },
+  "up": {
+    "IDLE": {
+      "entryFrame": 0,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 25,
+            "y": 14,
+            "width": 141,
+            "height": 227
+          }
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 22,
+            "y": 14,
+            "width": 147,
+            "height": 227
+          }
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 20,
+            "y": 14,
+            "width": 151,
+            "height": 230
+          }
+        },
+        {
+          "x": 576,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 24,
+            "y": 14,
+            "width": 142,
+            "height": 224
+          }
+        }
+      ]
+    },
+    "WALK": {
+      "entryFrame": 1,
+      "frames": [
+        {
+          "x": 0,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 25,
+            "y": 10,
+            "width": 139,
+            "height": 228
+          }
+        },
+        {
+          "x": 192,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 28,
+            "y": 10,
+            "width": 136,
+            "height": 225
+          }
+        },
+        {
+          "x": 384,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 28,
+            "y": 10,
+            "width": 136,
+            "height": 228
+          }
+        },
+        {
+          "x": 576,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "bounds": {
+            "x": 28,
+            "y": 10,
+            "width": 135,
+            "height": 224
+          }
+        }
+      ]
+    },
+    "RUN": {
+      "entryFrame": 0,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 82,
+            "y": 237
+          },
+          "bounds": {
+            "x": 30,
+            "y": 21,
+            "width": 131,
+            "height": 219
+          }
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 82,
+            "y": 237
+          },
+          "bounds": {
+            "x": 30,
+            "y": 24,
+            "width": 132,
+            "height": 216
+          }
+        },
+        {
+          "x": 384,
+          "y": 0,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 74,
+            "y": 237
+          },
+          "bounds": {
+            "x": 24,
+            "y": 26,
+            "width": 138,
+            "height": 214
+          }
+        },
+        {
+          "x": 0,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 107,
+            "y": 237
+          },
+          "bounds": {
+            "x": 26,
+            "y": 22,
+            "width": 135,
+            "height": 218
+          }
+        },
+        {
+          "x": 192,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 107,
+            "y": 237
+          },
+          "bounds": {
+            "x": 27,
+            "y": 24,
+            "width": 135,
+            "height": 216
+          }
+        },
+        {
+          "x": 384,
+          "y": 256,
+          "width": 192,
+          "height": 256,
+          "anchorX": 96,
+          "anchorY": 237,
+          "renderScale": 1.734375,
+          "grounded": true,
+          "contact": {
+            "x": 111,
+            "y": 237
+          },
+          "bounds": {
+            "x": 25,
+            "y": 26,
+            "width": 138,
+            "height": 214
+          }
+        }
+      ]
+    }
+  }
+}

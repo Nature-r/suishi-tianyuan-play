@@ -4,5 +4,69 @@
     "width": 400,
     "height": 840
   },
-  "elements": {}
+  "elements": {
+    "wardrobe.hanger:right-1": {
+      "x": -5.360624674479169,
+      "y": 2.8854323017453396,
+      "width": 47.09555556407992,
+      "height": 61.211812337239586,
+      "visible": true
+    },
+    "wardrobe.hanger:right-2": {
+      "width": 46.455267120990854,
+      "height": 60.358235707540004,
+      "x": -3.319417317708333,
+      "y": 3.1413333333333333,
+      "visible": true
+    },
+    "wardrobe.hanger:right-3": {
+      "width": 48.50937095494288,
+      "height": 63.020399402001665,
+      "x": -2,
+      "y": 2.323,
+      "visible": true
+    },
+    "wardrobe.action:outfit:right-3": {
+      "y": 3.283,
+      "width": 104.392333984375,
+      "height": 258.3733409551203,
+      "x": 0
+    },
+    "wardrobe.action:outfit:right-2": {
+      "width": 97.19095865885417,
+      "height": 262.02755783034684,
+      "x": 0,
+      "y": 5.972
+    },
+    "wardrobe.action:outfit:right-1": {
+      "width": 87.34029134114584,
+      "height": 252.262812808044,
+      "x": 0,
+      "y": 4.831
+    },
+    "hud.action:object:table": {
+      "x": -2.5017689230913174,
+      "y": 0.00003837539764221557,
+      "visible": false
+    },
+    "hud.action:object:stove": {
+      "x": -55.34127808578977,
+      "y": -105.27891585250552
+    },
+    "hud.id:nearby-action": {
+      "visible": true,
+      "x": -12.666452373573167,
+      "y": 35.209580838323355
+    },
+    "hud.action:object:wardrobe": {
+      "x": 1.6897455089820361,
+      "y": -56.16769025425712
+    },
+    "hud.id:plot-prompt-garden": {
+      "x": -10.033631467533683,
+      "y": 67.06584267987463
+    }
+  },
+  "revision": "e01757a0-bacf-4e29-917a-fd3e848f295d",
+  "savedAt": "2026-11-25T11:01:35.011Z"
 }

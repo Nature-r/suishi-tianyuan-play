@@ -139,7 +139,7 @@
       "zIndex": -400,
       "opacity": 1,
       "visible": true,
-      "locked": false,
+      "locked": true,
       "anchor": {
         "x": 0.5,
         "y": 1
@@ -338,18 +338,18 @@
       "category": "农田与农作物",
       "resource": "./assets/crops/wheat/stubble.png",
       "frame": {
-        "x": 43,
-        "y": 210,
-        "width": 1358,
-        "height": 667
+        "x": 71,
+        "y": 106,
+        "width": 1384,
+        "height": 771
       },
-      "x": 921.4098739501376,
-      "y": 934.9252206852257,
-      "width": 407.5447153105964,
-      "height": 200.17107887493947,
-      "scaleX": 0.3001065650298943,
-      "scaleY": 0.30010656502989425,
-      "rotation": 0,
+      "x": 929.8913907275778,
+      "y": 933.5423883271405,
+      "width": 414.5737054178629,
+      "height": 230.9511032349511,
+      "scaleX": 0.29954747501290674,
+      "scaleY": 0.29954747501290674,
+      "rotation": -0.17006774167124328,
       "zIndex": -399,
       "opacity": 1,
       "visible": true,
@@ -549,7 +549,7 @@
       "zIndex": -400,
       "opacity": 1,
       "visible": true,
-      "locked": false,
+      "locked": true,
       "anchor": {
         "x": 0.5,
         "y": 1
@@ -748,18 +748,18 @@
       "category": "农田与农作物",
       "resource": "./assets/crops/wheat/stubble.png",
       "frame": {
-        "x": 43,
-        "y": 210,
-        "width": 1358,
-        "height": 667
+        "x": 71,
+        "y": 106,
+        "width": 1384,
+        "height": 771
       },
-      "x": 685.8876393461073,
-      "y": 1087.4359690737597,
-      "width": 434.36272070235515,
-      "height": 213.34310361448522,
-      "scaleX": 0.3198547280576989,
-      "scaleY": 0.31985472805769893,
-      "rotation": 0,
+      "x": 680.7314957074102,
+      "y": 1082.5663938243933,
+      "width": 445.30832137630034,
+      "height": 248.0727715181558,
+      "scaleX": 0.3217545674684251,
+      "scaleY": 0.3217545674684252,
+      "rotation": 1.0716339063329143,
       "zIndex": -399,
       "opacity": 1,
       "visible": true,
@@ -2593,6 +2593,2055 @@
       },
       "depthMode": "y",
       "seasonalSourceId": "upper:lodged"
+    },
+    {
+      "id": "upper:corn-seedling",
+      "name": "玉米 · 幼苗期",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/seedling.png",
+      "frame": {
+        "x": 219,
+        "y": 50,
+        "width": 1327,
+        "height": 782
+      },
+      "x": 923.27621240401,
+      "y": 911.4571519331815,
+      "width": 205.11004240229033,
+      "height": 120.87117796427358,
+      "scaleX": 0.15456672373948027,
+      "scaleY": 0.1545667237394803,
+      "rotation": -0.663206920154598,
+      "anchor": {
+        "x": 0.46571213262999245,
+        "y": 0.9948849104859335
+      },
+      "zIndex": 911.4571519331815,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "upper:corn-jointing",
+      "name": "玉米 · 拔节期",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 815.3567751268203,
+      "y": 865.1039402036148,
+      "width": 208.528344627052,
+      "height": 136.53408077180453,
+      "scaleX": 0.19616965628132832,
+      "scaleY": 0.19616965628132835,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 865.1039402036148,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "upper:corn-tasseling",
+      "name": "玉米 · 抽雄吐丝期",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 817.5287153004119,
+      "y": 848.699440804765,
+      "width": 215.33706828765352,
+      "height": 139.9389351337132,
+      "scaleX": 0.20106168841050748,
+      "scaleY": 0.20106168841050745,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 848.699440804765,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "lower:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-959fe622-3ed6-40a3-8a3b-e21696c42c4d",
+      "name": "玉米 · 灌浆结实期（副本8）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 680.2452063699077,
+      "y": 912.5494366838118,
+      "width": 130.33580320171853,
+      "height": 84.92764686537683,
+      "scaleX": 0.130859240162368,
+      "scaleY": 0.130859240162368,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 912.5494366838118,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-filling"
+    },
+    {
+      "id": "upper:corn-mature",
+      "name": "玉米 · 成熟收获期",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 815.4272317283458,
+      "y": 852.5312138425161,
+      "width": 204.820798952101,
+      "height": 142.33309757688372,
+      "scaleX": 0.19286327584943597,
+      "scaleY": 0.19286327584943594,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 852.5312138425161,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "lower:corn-seedling",
+      "name": "玉米 · 幼苗期",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/seedling.png",
+      "frame": {
+        "x": 219,
+        "y": 50,
+        "width": 1327,
+        "height": 782
+      },
+      "x": 689.9778830370869,
+      "y": 1068.8197927010747,
+      "width": 210.45163431979196,
+      "height": 124.01897365341168,
+      "scaleX": 0.1585920379199638,
+      "scaleY": 0.1585920379199638,
+      "rotation": 2.9442737104456347,
+      "anchor": {
+        "x": 0.46571213262999245,
+        "y": 0.9948849104859335
+      },
+      "zIndex": 1068.8197927010747,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "lower:corn-jointing",
+      "name": "玉米 · 拔节期",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 694.2131129859171,
+      "y": 1072.3710781759617,
+      "width": 225.3565560066561,
+      "height": 147.55236404575035,
+      "scaleX": 0.21200052305423903,
+      "scaleY": 0.212000523054239,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 1072.3710781759617,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "lower:corn-tasseling",
+      "name": "玉米 · 抽雄吐丝期",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 583.835215280217,
+      "y": 1001.8408295064547,
+      "width": 235.13212591385383,
+      "height": 152.80295017370892,
+      "scaleX": 0.2195444686403864,
+      "scaleY": 0.21954446864038638,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 1001.8408295064547,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "lower:corn-filling",
+      "name": "玉米 · 灌浆结实期",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 574.8625046958726,
+      "y": 1006.7773387431284,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 1006.7773387431284,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "lower:corn-mature",
+      "name": "玉米 · 成熟收获期",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 637.4887716851257,
+      "y": 948.9466898075816,
+      "width": 190.6042299211486,
+      "height": 132.4537868943575,
+      "scaleX": 0.1794766760086145,
+      "scaleY": 0.1794766760086145,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 948.9466898075816,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "lower:corn-seedling-copy-6eefd514-a8b0-4daf-81ba-5d951bb23b63",
+      "name": "玉米 · 幼苗期（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/seedling.png",
+      "frame": {
+        "x": 219,
+        "y": 50,
+        "width": 1327,
+        "height": 782
+      },
+      "x": 589.81278479729,
+      "y": 1016.582586261252,
+      "width": 212.44388352716842,
+      "height": 125.19300445986862,
+      "scaleX": 0.16009335608678857,
+      "scaleY": 0.1600933560867885,
+      "rotation": 2.9442737104456347,
+      "anchor": {
+        "x": 0.46571213262999245,
+        "y": 0.9948849104859335
+      },
+      "zIndex": 1016.582586261252,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-seedling"
+    },
+    {
+      "id": "lower:corn-seedling-copy-6eefd514-a8b0-4daf-81ba-5d951bb23b63-copy-a4189642-6386-416a-9368-faeaaae1334e",
+      "name": "玉米 · 幼苗期（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/seedling.png",
+      "frame": {
+        "x": 219,
+        "y": 50,
+        "width": 1327,
+        "height": 782
+      },
+      "x": 675.4915033468903,
+      "y": 961.4452732117688,
+      "width": 206.48379034266756,
+      "height": 121.68072648678674,
+      "scaleX": 0.15560195202913907,
+      "scaleY": 0.15560195202913904,
+      "rotation": 2.9442737104456347,
+      "anchor": {
+        "x": 0.46571213262999245,
+        "y": 0.9948849104859335
+      },
+      "zIndex": 961.4452732117688,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-seedling"
+    },
+    {
+      "id": "lower:corn-seedling-copy-6eefd514-a8b0-4daf-81ba-5d951bb23b63-co-copy-4a486b2b-a127-417b-8ba5-e11546da91f6",
+      "name": "玉米 · 幼苗期（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/seedling.png",
+      "frame": {
+        "x": 219,
+        "y": 50,
+        "width": 1327,
+        "height": 782
+      },
+      "x": 789.1599656511343,
+      "y": 1005.618711015716,
+      "width": 206.48379034266756,
+      "height": 121.68072648678674,
+      "scaleX": 0.15560195202913907,
+      "scaleY": 0.15560195202913904,
+      "rotation": 2.9442737104456347,
+      "anchor": {
+        "x": 0.46571213262999245,
+        "y": 0.9948849104859335
+      },
+      "zIndex": 1005.618711015716,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-seedling"
+    },
+    {
+      "id": "upper:corn-seedling-copy-d76b4d8a-4abd-4de5-98f5-ea40ce6a57f6",
+      "name": "玉米 · 幼苗期（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/seedling.png",
+      "frame": {
+        "x": 219,
+        "y": 50,
+        "width": 1327,
+        "height": 782
+      },
+      "x": 822.3327314277572,
+      "y": 862.5304580220321,
+      "width": 209.876578324105,
+      "height": 123.68009363183882,
+      "scaleX": 0.1581586875087453,
+      "scaleY": 0.1581586875087453,
+      "rotation": 1.1280736419857973,
+      "anchor": {
+        "x": 0.46571213262999245,
+        "y": 0.9948849104859335
+      },
+      "zIndex": 862.5304580220321,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-seedling"
+    },
+    {
+      "id": "upper:corn-seedling-copy-d76b4d8a-4abd-4de5-98f5-ea40ce6a57f6-copy-c549fea2-25d8-47c8-b4bd-523707ca4285",
+      "name": "玉米 · 幼苗期（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/seedling.png",
+      "frame": {
+        "x": 219,
+        "y": 50,
+        "width": 1327,
+        "height": 782
+      },
+      "x": 1002.178325115075,
+      "y": 852.4366533563372,
+      "width": 195.9527657792835,
+      "height": 115.47480244114523,
+      "scaleX": 0.14766598777640053,
+      "scaleY": 0.14766598777640055,
+      "rotation": 1.1280736419857973,
+      "anchor": {
+        "x": 0.46571213262999245,
+        "y": 0.9948849104859335
+      },
+      "zIndex": 852.4366533563372,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-seedling"
+    },
+    {
+      "id": "upper:corn-seedling-copy-d76b4d8a-4abd-4de5-98f5-ea40ce6a57f6-co-copy-bb0300cb-02b2-42fa-a5f6-b4fb11488edf",
+      "name": "玉米 · 幼苗期（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/seedling.png",
+      "frame": {
+        "x": 219,
+        "y": 50,
+        "width": 1327,
+        "height": 782
+      },
+      "x": 905.66196240522,
+      "y": 805.8664596490611,
+      "width": 198.89223096461325,
+      "height": 117.20702683822726,
+      "scaleX": 0.14988110848878164,
+      "scaleY": 0.14988110848878167,
+      "rotation": 1.1280736419857973,
+      "anchor": {
+        "x": 0.46571213262999245,
+        "y": 0.9948849104859335
+      },
+      "zIndex": 805.8664596490611,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-seedling"
+    },
+    {
+      "id": "lower:corn-jointing-copy-8f888b77-2a38-4296-b92e-fca869adf8c0",
+      "name": "玉米 · 拔节期（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 593.8771629838037,
+      "y": 1014.2543701836171,
+      "width": 225.3565560066561,
+      "height": 147.55236404575035,
+      "scaleX": 0.21200052305423903,
+      "scaleY": 0.212000523054239,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 1014.2543701836171,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-jointing"
+    },
+    {
+      "id": "lower:corn-jointing-copy-8f888b77-2a38-4296-b92e-fca869adf8c0-copy-1b7650a6-dd71-454d-9151-41fde61e0167",
+      "name": "玉米 · 拔节期（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 650.7606128255114,
+      "y": 965.5224288189693,
+      "width": 225.3565560066561,
+      "height": 147.55236404575035,
+      "scaleX": 0.21200052305423903,
+      "scaleY": 0.212000523054239,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 965.5224288189693,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-jointing"
+    },
+    {
+      "id": "lower:corn-jointing-copy-8f888b77-2a38-4296-b92e-fca869adf8c0-co-copy-fe701d15-bd1a-4782-93a7-c179af4bebdb",
+      "name": "玉米 · 拔节期（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 766.2619084453345,
+      "y": 1023.9332159204941,
+      "width": 225.3565560066561,
+      "height": 147.55236404575035,
+      "scaleX": 0.21200052305423903,
+      "scaleY": 0.212000523054239,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 1023.9332159204941,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-jointing"
+    },
+    {
+      "id": "lower:corn-jointing-copy-8f888b77-2a38-4296-b92e-fca869adf8c0-co-copy-81c3cf29-0c74-4be2-b9d5-f4639a7e3b87",
+      "name": "玉米 · 拔节期（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 699.029140176951,
+      "y": 992.6506724281869,
+      "width": 225.3565560066561,
+      "height": 147.55236404575035,
+      "scaleX": 0.21200052305423903,
+      "scaleY": 0.212000523054239,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 992.6506724281869,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-jointing"
+    },
+    {
+      "id": "lower:corn-jointing-copy-8f888b77-2a38-4296-b92e-fca869adf8c0-co-copy-4de73958-61d3-4231-a1a7-6e679d9ab93e",
+      "name": "玉米 · 拔节期（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 723.029140176951,
+      "y": 1016.6506724281869,
+      "width": 225.3565560066561,
+      "height": 147.55236404575035,
+      "scaleX": 0.21200052305423903,
+      "scaleY": 0.212000523054239,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 1016.6506724281869,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-jointing"
+    },
+    {
+      "id": "upper:corn-jointing-copy-593dbf50-8b02-4a40-b564-a656e01799ea",
+      "name": "玉米 · 拔节期（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 864.5998911826002,
+      "y": 887.4227690829139,
+      "width": 208.528344627052,
+      "height": 136.53408077180453,
+      "scaleX": 0.19616965628132832,
+      "scaleY": 0.19616965628132835,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 887.4227690829139,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-jointing"
+    },
+    {
+      "id": "upper:corn-jointing-copy-593dbf50-8b02-4a40-b564-a656e01799ea-copy-ce0c4d50-9f52-459b-9157-805f3090256b",
+      "name": "玉米 · 拔节期（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 919.429159891998,
+      "y": 912.5434985263424,
+      "width": 208.528344627052,
+      "height": 136.53408077180453,
+      "scaleX": 0.19616965628132832,
+      "scaleY": 0.19616965628132835,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 912.5434985263424,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-jointing"
+    },
+    {
+      "id": "upper:corn-jointing-copy-593dbf50-8b02-4a40-b564-a656e01799ea-copy-132b8de9-fc2e-417d-8cab-fa6ddc96eb26",
+      "name": "玉米 · 拔节期（副本8）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 1000.6833014813539,
+      "y": 856.5061798437733,
+      "width": 208.528344627052,
+      "height": 136.53408077180453,
+      "scaleX": 0.19616965628132832,
+      "scaleY": 0.19616965628132835,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 856.5061798437733,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-jointing"
+    },
+    {
+      "id": "upper:corn-jointing-copy-593dbf50-8b02-4a40-b564-a656e01799ea-co-copy-57cca33d-168c-41d1-a96f-29c19fe3f32d",
+      "name": "玉米 · 拔节期（副本9）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 896.3841494688197,
+      "y": 812.1406320686681,
+      "width": 208.528344627052,
+      "height": 136.53408077180453,
+      "scaleX": 0.19616965628132832,
+      "scaleY": 0.19616965628132835,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 812.1406320686681,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-jointing"
+    },
+    {
+      "id": "upper:corn-jointing-copy-593dbf50-8b02-4a40-b564-a656e01799ea-co-copy-a1b9c00d-1135-4c96-87bd-050125f5cc5d",
+      "name": "玉米 · 拔节期（副本10）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/jointing.png",
+      "frame": {
+        "x": 293,
+        "y": 120,
+        "width": 1063,
+        "height": 696
+      },
+      "x": 928.2205595947628,
+      "y": 826.6142778884087,
+      "width": 208.528344627052,
+      "height": 136.53408077180453,
+      "scaleX": 0.19616965628132832,
+      "scaleY": 0.19616965628132835,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4477892756349953,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 826.6142778884087,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-jointing"
+    },
+    {
+      "id": "lower:corn-tasseling-copy-b5af30be-9db5-457f-982a-80b98b9626d2",
+      "name": "玉米 · 抽雄吐丝期（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 608.9647946128189,
+      "y": 1025.8408295064546,
+      "width": 235.13212591385383,
+      "height": 152.80295017370892,
+      "scaleX": 0.2195444686403864,
+      "scaleY": 0.21954446864038638,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 1025.8408295064546,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-tasseling"
+    },
+    {
+      "id": "lower:corn-tasseling-copy-b5af30be-9db5-457f-982a-80b98b9626d2-copy-c31ff682-7e1c-4857-a85f-fdc791a22f01",
+      "name": "玉米 · 抽雄吐丝期（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 654.1592278025207,
+      "y": 1043.882834667898,
+      "width": 235.13212591385383,
+      "height": 152.80295017370892,
+      "scaleX": 0.2195444686403864,
+      "scaleY": 0.21954446864038638,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 1043.882834667898,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-tasseling"
+    },
+    {
+      "id": "lower:corn-tasseling-copy-b5af30be-9db5-457f-982a-80b98b9626d2-c-copy-88ad5282-30eb-4444-a475-3ebeed9a3762",
+      "name": "玉米 · 抽雄吐丝期（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 697.3677132195087,
+      "y": 1061.9248095252583,
+      "width": 235.13212591385383,
+      "height": 152.80295017370892,
+      "scaleX": 0.2195444686403864,
+      "scaleY": 0.21954446864038638,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 1061.9248095252583,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-tasseling"
+    },
+    {
+      "id": "lower:corn-tasseling-copy-b5af30be-9db5-457f-982a-80b98b9626d2-c-copy-c9ab293c-948a-4123-bcee-43abf819bb2a",
+      "name": "玉米 · 抽雄吐丝期（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 665.1078195548976,
+      "y": 960.8063118339127,
+      "width": 235.13212591385383,
+      "height": 152.80295017370892,
+      "scaleX": 0.2195444686403864,
+      "scaleY": 0.21954446864038638,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 960.8063118339127,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-tasseling"
+    },
+    {
+      "id": "lower:corn-tasseling-copy-b5af30be-9db5-457f-982a-80b98b9626d2-c-copy-7174a48f-c8c3-4ef6-a540-78b87da11a7c",
+      "name": "玉米 · 抽雄吐丝期（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 703.0202422174287,
+      "y": 987.4543129070581,
+      "width": 235.13212591385383,
+      "height": 152.80295017370892,
+      "scaleX": 0.2195444686403864,
+      "scaleY": 0.21954446864038638,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 987.4543129070581,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-tasseling"
+    },
+    {
+      "id": "lower:corn-tasseling-copy-b5af30be-9db5-457f-982a-80b98b9626d2-c-copy-62966cc3-28d8-4158-b829-225ee68f93a5",
+      "name": "玉米 · 抽雄吐丝期（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 734.9745791291546,
+      "y": 1001.524271002659,
+      "width": 235.13212591385383,
+      "height": 152.80295017370892,
+      "scaleX": 0.2195444686403864,
+      "scaleY": 0.21954446864038638,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 1001.524271002659,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-tasseling"
+    },
+    {
+      "id": "lower:corn-tasseling-copy-b5af30be-9db5-457f-982a-80b98b9626d2-c-copy-45cbc2e7-6f8a-46a6-a4fb-69f499b49947",
+      "name": "玉米 · 抽雄吐丝期（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 778.1830039379765,
+      "y": 1010.9602499483178,
+      "width": 235.13212591385383,
+      "height": 152.80295017370892,
+      "scaleX": 0.2195444686403864,
+      "scaleY": 0.21954446864038638,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 1010.9602499483178,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-tasseling"
+    },
+    {
+      "id": "upper:corn-tasseling-copy-fe0c16d5-fe47-4397-87d8-92283903f227",
+      "name": "玉米 · 抽雄吐丝期（副本8）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 846.572049099546,
+      "y": 863.1730866245058,
+      "width": 215.33706828765352,
+      "height": 139.9389351337132,
+      "scaleX": 0.20106168841050748,
+      "scaleY": 0.20106168841050745,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 863.1730866245058,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-tasseling"
+    },
+    {
+      "id": "upper:corn-tasseling-copy-fe0c16d5-fe47-4397-87d8-92283903f227-copy-cd82de34-cbd0-4d47-96bb-15da97c364e8",
+      "name": "玉米 · 抽雄吐丝期（副本9）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 880.0984032798053,
+      "y": 878.7675131913803,
+      "width": 215.33706828765352,
+      "height": 139.9389351337132,
+      "scaleX": 0.20106168841050748,
+      "scaleY": 0.20106168841050745,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 878.7675131913803,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-tasseling"
+    },
+    {
+      "id": "upper:corn-tasseling-copy-fe0c16d5-fe47-4397-87d8-92283903f227-c-copy-7931908b-b1cc-4544-9620-5624635d898e",
+      "name": "玉米 · 抽雄吐丝期（副本10）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 922.5907212667569,
+      "y": 906.1297784772242,
+      "width": 215.33706828765352,
+      "height": 139.9389351337132,
+      "scaleX": 0.20106168841050748,
+      "scaleY": 0.20106168841050745,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 906.1297784772242,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-tasseling"
+    },
+    {
+      "id": "upper:corn-tasseling-copy-fe0c16d5-fe47-4397-87d8-92283903f227-c-copy-1dc8a735-ea51-4263-b94a-832c60220f9d",
+      "name": "玉米 · 抽雄吐丝期（副本11）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 896.7262387603658,
+      "y": 821.9777454677915,
+      "width": 215.33706828765352,
+      "height": 139.9389351337132,
+      "scaleX": 0.20106168841050748,
+      "scaleY": 0.20106168841050745,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 821.9777454677915,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-tasseling"
+    },
+    {
+      "id": "upper:corn-tasseling-copy-fe0c16d5-fe47-4397-87d8-92283903f227-c-copy-cc5e0860-63ba-4d5d-8187-835173ec2660",
+      "name": "玉米 · 抽雄吐丝期（副本12）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 942.5895180112186,
+      "y": 835.3306618441036,
+      "width": 215.33706828765352,
+      "height": 139.9389351337132,
+      "scaleX": 0.20106168841050748,
+      "scaleY": 0.20106168841050745,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 835.3306618441036,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-tasseling"
+    },
+    {
+      "id": "upper:corn-tasseling-copy-fe0c16d5-fe47-4397-87d8-92283903f227-c-copy-25bc600f-ed90-4c4d-9e02-0b907b9f9850",
+      "name": "玉米 · 抽雄吐丝期（副本13）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 971.6416503958208,
+      "y": 846.4420680298531,
+      "width": 215.33706828765352,
+      "height": 139.9389351337132,
+      "scaleX": 0.20106168841050748,
+      "scaleY": 0.20106168841050745,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 846.4420680298531,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-tasseling"
+    },
+    {
+      "id": "upper:corn-tasseling-copy-fe0c16d5-fe47-4397-87d8-92283903f227-c-copy-9fff8a0b-91e2-49ec-a73f-3125ea7101ba",
+      "name": "玉米 · 抽雄吐丝期（副本14）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/tasseling.png",
+      "frame": {
+        "x": 336,
+        "y": 105,
+        "width": 1071,
+        "height": 696
+      },
+      "x": 1004.6163614842756,
+      "y": 851.3893853211872,
+      "width": 215.33706828765352,
+      "height": 139.9389351337132,
+      "scaleX": 0.20106168841050748,
+      "scaleY": 0.20106168841050745,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.44537815126050423,
+        "y": 0.9942528735632183
+      },
+      "zIndex": 851.3893853211872,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-tasseling"
+    },
+    {
+      "id": "lower:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04",
+      "name": "玉米 · 灌浆结实期（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 636.9766430468197,
+      "y": 1031.8980938384097,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 1031.8980938384097,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-filling"
+    },
+    {
+      "id": "lower:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-copy-fa063d7e-007d-442d-b96c-75619156a3de",
+      "name": "玉米 · 灌浆结实期（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 670.5117445088417,
+      "y": 1050.8547856911282,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 1050.8547856911282,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-filling"
+    },
+    {
+      "id": "lower:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-0a456ea2-5049-4baf-87cd-0a9a445024e1",
+      "name": "玉米 · 灌浆结实期（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 702.3657261538681,
+      "y": 1062.526556598592,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 1062.526556598592,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-filling"
+    },
+    {
+      "id": "lower:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-23d92ad3-a40b-4d8e-a576-cee87645cf23",
+      "name": "玉米 · 灌浆结实期（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 654.6466860265342,
+      "y": 970.5293148777482,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 970.5293148777482,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-filling"
+    },
+    {
+      "id": "lower:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-a256149d-5aa0-4457-84d2-981932f984be",
+      "name": "玉米 · 灌浆结实期（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 691.5440784262528,
+      "y": 990.6067361738953,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 990.6067361738953,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-filling"
+    },
+    {
+      "id": "lower:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-e37101b3-8013-4df9-b5c8-dc638df306e6",
+      "name": "玉米 · 灌浆结实期（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 726.1999093317033,
+      "y": 1001.1577776379305,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 1001.1577776379305,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-filling"
+    },
+    {
+      "id": "lower:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-c0c4a686-ffbf-43de-b6b3-4e46adf054a4",
+      "name": "玉米 · 灌浆结实期（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 779.3480582241056,
+      "y": 1010.5881153103896,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 1010.5881153103896,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-filling"
+    },
+    {
+      "id": "upper:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-db379005-6d96-492a-ac52-1ea5dbb0b5e0",
+      "name": "玉米 · 灌浆结实期（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 813.202098037987,
+      "y": 856.6585583751829,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 856.6585583751829,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-filling"
+    },
+    {
+      "id": "upper:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-d2592e88-eecb-4c1a-9bc8-91c0dbaad272",
+      "name": "玉米 · 灌浆结实期（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 839.0325871208438,
+      "y": 871.1845958133092,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 871.1845958133092,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-filling"
+    },
+    {
+      "id": "upper:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-ff1d3fea-f2d5-4c0d-ac50-f628629cad53",
+      "name": "玉米 · 灌浆结实期（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 886.7288361498298,
+      "y": 893.1770014302183,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 893.1770014302183,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-filling"
+    },
+    {
+      "id": "upper:corn-filling",
+      "name": "玉米 · 灌浆结实期",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 924.3757442146743,
+      "y": 907.236730691479,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 907.236730691479,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "id": "upper:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-7dcb40bd-b473-4488-8102-0eea2c348e7d",
+      "name": "玉米 · 灌浆结实期（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 899.8859018986376,
+      "y": 821.4557631254651,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 821.4557631254651,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-filling"
+    },
+    {
+      "id": "upper:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-4d5a8816-9194-4b70-b18e-4fb5b268f148",
+      "name": "玉米 · 灌浆结实期（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 943.5077735663385,
+      "y": 835.9294089452058,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 835.9294089452058,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-filling"
+    },
+    {
+      "id": "upper:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-cfc68bd9-6c40-4b51-bb53-c4ff5be811c7",
+      "name": "玉米 · 灌浆结实期（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 978.1724287091099,
+      "y": 855.446439867786,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 855.446439867786,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-filling"
+    },
+    {
+      "id": "upper:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-53bd6293-d4df-45a4-be5f-8bfd619d7ff0",
+      "name": "玉米 · 灌浆结实期（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 991.53414367089,
+      "y": 854.790032986419,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 854.790032986419,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-filling"
+    },
+    {
+      "id": "upper:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-475e5f82-d455-4a9f-b13c-a5fc6e4b0733",
+      "name": "玉米 · 灌浆结实期（副本8）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 932.4765586384331,
+      "y": 771.1926390115104,
+      "width": 143.78178378332595,
+      "height": 93.68913421222747,
+      "scaleX": 0.1443592206659899,
+      "scaleY": 0.14435922066598994,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 771.1926390115104,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-filling"
+    },
+    {
+      "id": "upper:corn-mature-copy-7a0fd023-a6aa-47fb-8753-1357028f6093",
+      "name": "玉米 · 成熟收获期（副本）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 869.939895283181,
+      "y": 868.7105511194067,
+      "width": 204.820798952101,
+      "height": 142.33309757688372,
+      "scaleX": 0.19286327584943597,
+      "scaleY": 0.19286327584943594,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 868.7105511194067,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-mature"
+    },
+    {
+      "id": "upper:corn-mature-copy-7a0fd023-a6aa-47fb-8753-1357028f6093-copy-dffc96e7-cd33-4f5a-a1dc-a9c3667ebba4",
+      "name": "玉米 · 成熟收获期（副本2）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 911.1574966488087,
+      "y": 886.454099701015,
+      "width": 204.820798952101,
+      "height": 142.33309757688372,
+      "scaleX": 0.19286327584943597,
+      "scaleY": 0.19286327584943594,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 886.454099701015,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-mature"
+    },
+    {
+      "id": "upper:corn-mature-copy-7a0fd023-a6aa-47fb-8753-1357028f6093-copy-copy-8e179ba7-ca5b-43f8-b350-3d84adf5a490",
+      "name": "玉米 · 成熟收获期（副本3）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 928.1311652929452,
+      "y": 909.6720835487652,
+      "width": 204.820798952101,
+      "height": 142.33309757688372,
+      "scaleX": 0.19286327584943597,
+      "scaleY": 0.19286327584943594,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 909.6720835487652,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-mature"
+    },
+    {
+      "id": "upper:corn-mature-copy-7a0fd023-a6aa-47fb-8753-1357028f6093-copy-copy-7d37ef1e-958a-4407-a345-46ba0bf87273",
+      "name": "玉米 · 成熟收获期（副本4）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 900.5271924555235,
+      "y": 829.6575628917669,
+      "width": 204.820798952101,
+      "height": 142.33309757688372,
+      "scaleX": 0.19286327584943597,
+      "scaleY": 0.19286327584943594,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 829.6575628917669,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-mature"
+    },
+    {
+      "id": "upper:corn-mature-copy-7a0fd023-a6aa-47fb-8753-1357028f6093-copy-copy-fe9b27cc-76e8-46b9-8683-35586e582c21",
+      "name": "玉米 · 成熟收获期（副本5）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 944.8730732304123,
+      "y": 845.8369001686574,
+      "width": 204.820798952101,
+      "height": 142.33309757688372,
+      "scaleX": 0.19286327584943597,
+      "scaleY": 0.19286327584943594,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 845.8369001686574,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-mature"
+    },
+    {
+      "id": "upper:corn-mature-copy-7a0fd023-a6aa-47fb-8753-1357028f6093-copy-copy-79004e44-5713-41e4-aebf-d0ad323c1703",
+      "name": "玉米 · 成熟收获期（副本6）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 993.135498887849,
+      "y": 859.2895127129485,
+      "width": 204.820798952101,
+      "height": 142.33309757688372,
+      "scaleX": 0.19286327584943597,
+      "scaleY": 0.19286327584943594,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 859.2895127129485,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-mature"
+    },
+    {
+      "id": "upper:corn-mature-copy-7a0fd023-a6aa-47fb-8753-1357028f6093-copy-copy-dd243267-eca4-432d-8ead-862c0c0135b6",
+      "name": "玉米 · 成熟收获期（副本7）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 908.5328903974803,
+      "y": 770.8388838210623,
+      "width": 148.14040361645388,
+      "height": 102.94502624194251,
+      "scaleX": 0.1394919054768869,
+      "scaleY": 0.13949190547688686,
+      "rotation": -2.1761074427097826,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 770.8388838210623,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-mature"
+    },
+    {
+      "id": "lower:corn-mature-copy-98903b34-58a7-410c-91e5-7672cf1be871",
+      "name": "玉米 · 成熟收获期（副本8）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 705.7759257752197,
+      "y": 973.5070288774432,
+      "width": 190.6042299211486,
+      "height": 132.4537868943575,
+      "scaleX": 0.1794766760086145,
+      "scaleY": 0.1794766760086145,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 973.5070288774432,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-mature"
+    },
+    {
+      "id": "lower:corn-mature-copy-98903b34-58a7-410c-91e5-7672cf1be871-copy-be42f3c4-54d8-4854-89c5-27fdc6e99286",
+      "name": "玉米 · 成熟收获期（副本9）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 762.8465764159164,
+      "y": 1005.9126792661266,
+      "width": 190.6042299211486,
+      "height": 132.4537868943575,
+      "scaleX": 0.1794766760086145,
+      "scaleY": 0.1794766760086145,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 1005.9126792661266,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-mature"
+    },
+    {
+      "id": "lower:corn-mature-copy-98903b34-58a7-410c-91e5-7672cf1be871-copy-copy-157a4b28-2bfc-4ee0-be67-7745d53a7b14",
+      "name": "玉米 · 成熟收获期（副本10）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 788.5453447075533,
+      "y": 1008.0581729488893,
+      "width": 190.6042299211486,
+      "height": 132.4537868943575,
+      "scaleX": 0.1794766760086145,
+      "scaleY": 0.1794766760086145,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 1008.0581729488893,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-mature"
+    },
+    {
+      "id": "lower:corn-mature-copy-98903b34-58a7-410c-91e5-7672cf1be871-copy-copy-c6c6d7f7-62d5-424b-bcfc-fa70b55bc914",
+      "name": "玉米 · 成熟收获期（副本11）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 559.825754718262,
+      "y": 992.8320267844235,
+      "width": 190.6042299211486,
+      "height": 132.4537868943575,
+      "scaleX": 0.1794766760086145,
+      "scaleY": 0.1794766760086145,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 992.8320267844235,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-mature"
+    },
+    {
+      "id": "lower:corn-mature-copy-98903b34-58a7-410c-91e5-7672cf1be871-copy-copy-45e0a909-619d-4956-bb6e-fd8421c0fb6a",
+      "name": "玉米 · 成熟收获期（副本12）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 583.825754718262,
+      "y": 1016.8320267844235,
+      "width": 190.6042299211486,
+      "height": 132.4537868943575,
+      "scaleX": 0.1794766760086145,
+      "scaleY": 0.1794766760086145,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 1016.8320267844235,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-mature"
+    },
+    {
+      "id": "lower:corn-mature-copy-98903b34-58a7-410c-91e5-7672cf1be871-copy-copy-d889d74a-4e75-46a2-9597-45576fec1daf",
+      "name": "玉米 · 成熟收获期（副本13）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 637.534370939789,
+      "y": 1033.5472084465796,
+      "width": 190.6042299211486,
+      "height": 132.4537868943575,
+      "scaleX": 0.1794766760086145,
+      "scaleY": 0.1794766760086145,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 1033.5472084465796,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-mature"
+    },
+    {
+      "id": "lower:corn-mature-copy-98903b34-58a7-410c-91e5-7672cf1be871-copy-copy-bb2b760d-3b70-4377-8d4f-1f1a0dce9b2a",
+      "name": "玉米 · 成熟收获期（副本14）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/mature.png",
+      "frame": {
+        "x": 294,
+        "y": 57,
+        "width": 1062,
+        "height": 738
+      },
+      "x": 691.2429358576109,
+      "y": 1071.556506052406,
+      "width": 190.6042299211486,
+      "height": 132.4537868943575,
+      "scaleX": 0.1794766760086145,
+      "scaleY": 0.1794766760086145,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4331450094161959,
+        "y": 0.994579945799458
+      },
+      "zIndex": 1071.556506052406,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "lower:corn-mature"
+    },
+    {
+      "id": "upper:corn-filling-copy-711d0db8-1ad0-4402-9890-d50e99fe0e04-cop-copy-8ba197c8-9df2-4c2f-a773-30fc5d399dd4",
+      "name": "玉米 · 灌浆结实期（副本9）",
+      "category": "农田与农作物",
+      "resource": "./assets/crops/corn/filling.png",
+      "frame": {
+        "x": 346,
+        "y": 158,
+        "width": 996,
+        "height": 649
+      },
+      "x": 974.8661795506669,
+      "y": 874.9665033345786,
+      "width": 211.64866468570716,
+      "height": 137.91162990062648,
+      "scaleX": 0.21249865932299916,
+      "scaleY": 0.2124986593229992,
+      "rotation": 0.5742281286240645,
+      "anchor": {
+        "x": 0.4066265060240964,
+        "y": 0.9938366718027735
+      },
+      "zIndex": 874.9665033345786,
+      "depthMode": "y",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "seasonalSourceId": "upper:corn-filling"
     }
   ],
   "farmBindings": {
