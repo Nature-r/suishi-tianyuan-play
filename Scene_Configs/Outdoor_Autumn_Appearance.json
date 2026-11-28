@@ -230,6 +230,20 @@
       "depthMode": "fixed",
       "visible": false,
       "zIndex": -405
+    },
+    {
+      "id": "autumn-scarecrow",
+      "name": "秋季稻草人",
+      "parentId": "ground",
+      "u": 0.8553774420319036,
+      "v": 0.641661505178367,
+      "widthRatio": 0.117,
+      "category": "前景遮挡物",
+      "resource": "./assets/landscape/autumn/scarecrow-sway.png",
+      "frame": {"x": 0, "y": 0, "width": 192, "height": 256},
+      "anchor": {"x": 0.5, "y": 0.9921875},
+      "depthMode": "y",
+      "visible": true
     }
   ]
 }
