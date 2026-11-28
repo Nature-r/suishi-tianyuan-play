@@ -147,6 +147,12 @@
       "properties": {
         "visible": true
       }
+    },
+    "fishing-stool": {
+      "depthDelta": 3.393533204773007,
+      "properties": {
+        "depthMode": "fixed"
+      }
     }
   },
   "deleted": [],
